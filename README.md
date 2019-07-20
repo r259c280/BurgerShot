@@ -55,4 +55,4 @@ However Future updates will include:
 
 # Some Visuals
 
-![alt text](https://raw.githubusercontent.com/r259c280/Java/src/main/resources/images/gameBackground.png)
+![alt text](https://raw.githubusercontent.com/r259c280/BurgerShot/Java/src/main/resources/images/gameBackground.png)
