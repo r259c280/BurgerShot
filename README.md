@@ -8,7 +8,7 @@ https://www.eclipse.org/
 
 https://www.jetbrains.com/idea/
 
-# Clone or Download Burgershot 
+# Now What?
 Once you have your preferance above installed:
 - clone or download the zip of this then extract it to where ever you want to put it. 
 
