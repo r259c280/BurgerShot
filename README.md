@@ -7,10 +7,11 @@ https://www.eclipse.org/
 
 https://www.jetbrains.com/idea/
 
-Once you have your preferance above installed, clone or download the zip of this then extract it to where ever you want to put it. 
-Then open up eclipse or intellij and open a new project (hunt for this and click ok.) 
-Click Run 
-Have some fun. 
+Once you have your preferance above installed:
+- clone or download the zip of this then extract it to where ever you want to put it. 
+- open up eclipse or intellij and open a new project (hunt for this and click ok.) 
+- Click Run 
+- Have some fun. 
 
 Shoot ketchup at the escaped burgers for the hungry customers.
 Shoot 6/10 burgers to win the game
