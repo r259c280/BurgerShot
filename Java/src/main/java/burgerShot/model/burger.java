@@ -16,7 +16,7 @@ public class burger {
     }
 
     public int getSpeed() {
-        return speed;
+        return speed - 100 ;
     }
 
     public void setX(int pX) {
