@@ -1,3 +1,7 @@
+/* Ryan Charles
+ * CS 4000 - BurgerShot
+ */
+
 package burgerShot.controller;
 
 import java.awt.image.BufferedImage;
@@ -13,13 +17,9 @@ public class ronController {
 
     private ronIntroAnimation ronIntroAnimation;
     private ronAnimation ronAnimation;
-    
     private Spritesheet spriteSheet;
-    
     private BufferedImage currentImage;
-    
     private GamePanel panel;
-    
     private ron ron;
     
     private boolean isAnimationFinished;
@@ -64,7 +64,7 @@ public class ronController {
         return ron;
     }
 
-    private void moveRigth() {
+    private void moveRight() {
         spriteSheet.setFrames(3, "ronRight");
         spriteSheet.setDelay(DELAY);
         spriteSheet.update();
@@ -180,7 +180,7 @@ public class ronController {
         public void run() {
             while (!isAnimationFinished) {
                 while (ron.getX() < 250) {
-                    moveRigth();
+                    moveRight();
                     panel.setronCurrentImage(currentImage);
                     panel.repaint();
                 }
@@ -220,12 +220,12 @@ public class ronController {
     public class ronAnimation implements Runnable {
 
         private Thread thread;
-        private boolean theDuckIsDead;
+        private boolean theBurgerIsShot;
         private int i;
 
         public void start(boolean pValue) throws InterruptedException {
             reset();
-            theDuckIsDead = pValue;
+            theBurgerIsShot = pValue;
             thread = new Thread(this);
             thread.start();
             thread.join();
@@ -247,7 +247,7 @@ public class ronController {
         @Override
         public void run() {
             while (!isAnimationFinished) {
-                if (theDuckIsDead) {
+                if (theBurgerIsShot) {
                     while (ron.getY() > 350) {
                         moveUp();
                         panel.setronCurrentImage(currentImage);

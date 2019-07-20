@@ -1,3 +1,7 @@
+/* Ryan Charles
+ * CS 4000 - BurgerShot
+ */
+
 package burgerShot.GUI;
 
 import java.awt.Dimension;
@@ -16,7 +20,7 @@ import burgerShot.controller.GameListener;
 import burgerShot.utility.Resources.Resources;
 
 public class MainFrame extends JFrame implements GameListener {
-
+	//initialize private variables
     private static final Dimension FRAME_SIZE = new Dimension(800, 600);
     private static final String PRESS_ENTER_TO_GO_BACK = "pressEnter";
 
@@ -30,6 +34,7 @@ public class MainFrame extends JFrame implements GameListener {
     }
 
     private void initFrame() {
+    	//set the overall frame variables and game icon
         this.setTitle("Burger Shot");
         this.setIconImage(Resources.getImage("/images/gamelogo.png"));
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -48,6 +53,7 @@ public class MainFrame extends JFrame implements GameListener {
 
         menuPanel.addMouseListener(new MouseAdapter() {
             @Override
+            //set menu items text to click (play, instructions, exit)
             public void mousePressed(MouseEvent e) {
                 Point hitPoint = e.getPoint();
                 if (hitPoint.x > 56 && hitPoint.x < 224 && hitPoint.y > 67 && hitPoint.y < 124) {
@@ -75,7 +81,7 @@ public class MainFrame extends JFrame implements GameListener {
         Insets i = this.getInsets();
         this.setSize(pDimension.width + i.left + i.right, pDimension.height + i.top + i.bottom);
     }
-
+//initialize the panels
     private void initPanel(JPanel pPanel, boolean pValue) {
         pPanel.setSize(FRAME_SIZE);
         pPanel.setVisible(pValue);
@@ -91,10 +97,10 @@ public class MainFrame extends JFrame implements GameListener {
     public void gameIsFinished() {
         goBackAction.setEnabled(true);
     }
-
+//go back to menu class after beating the game or when at the instructions
     public class GoBackToMenu extends AbstractAction {
-
-        private JPanel panel;
+    	
+		private JPanel panel;
 
         public GoBackToMenu() {
         }

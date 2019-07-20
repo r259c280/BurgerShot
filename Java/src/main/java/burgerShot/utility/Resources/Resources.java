@@ -1,3 +1,7 @@
+/* Ryan Charles
+ * CS 4000 - BurgerShot
+ */
+
 package burgerShot.utility.Resources;
 
 import java.awt.image.BufferedImage;
@@ -32,6 +36,7 @@ public class Resources {
         }
         return image;
     }
+    
     public static File extract(String path) throws IOException {
         return extract(path, null);
     }
@@ -87,7 +92,7 @@ public class Resources {
         }
     }
 
-    public static File getHomeDir() {
+   public static File getHomeDir() {
         File runningSource = getRunningSource();
         if (isRunningFromJar()) {
             return runningSource.getParentFile();
@@ -105,7 +110,6 @@ public class Resources {
         String classJar = Resources.class.getResource("/" + className + ".class").toString();
         return classJar.startsWith("jar:");
     }
-
 
     public static URL getResource(String resource) {
         return Resources.source.getResource(resource);

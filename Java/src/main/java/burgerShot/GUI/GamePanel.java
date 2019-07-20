@@ -1,3 +1,7 @@
+/* Ryan Charles
+ * CS 4000 - BurgerShot
+ */
+
 package burgerShot.GUI;
 
 import java.awt.Color;
@@ -26,7 +30,7 @@ import burgerShot.model.burger;
 import burgerShot.utility.Resources.Resources;
 
 public class GamePanel extends JPanel implements MouseMotionListener {
-
+//initialize everything
     private static final Cursor CURSOR = Toolkit.getDefaultToolkit().createCustomCursor(new BufferedImage(3, 3, BufferedImage.TYPE_INT_ARGB), new Point(), "null");
     private static final int BULLET_NUMBER = 3;
 
@@ -55,8 +59,8 @@ public class GamePanel extends JPanel implements MouseMotionListener {
     private boolean showImage;
 
     private int currentAmmoNumber;
-    private int killedburgers;
-
+    private int shotburgers;
+//start the game
     public GamePanel() {
         initPanel();
         gameThread.start();
@@ -66,7 +70,7 @@ public class GamePanel extends JPanel implements MouseMotionListener {
         this.setLayout(null);
         this.setCursor(CURSOR);
         this.addMouseMotionListener(this);
-
+//set the images 
         backgroundImg = Resources.getImage("/images/gameBackground.png");
         burgerCurrentImage = Resources.getImage("/images/burgerRight0.png");
         ronCurrentImage = Resources.getImage("/images/ronRight0.png");
@@ -95,7 +99,7 @@ public class GamePanel extends JPanel implements MouseMotionListener {
                     hitPoint.y -= burger.getY();
                     if (contains(burgerController.getCurrentImage(), hitPoint.x, hitPoint.y)) {
                         burgerController.theburgerWasHit(true);
-                        killedburgers++;
+                        shotburgers++;
                     }
                 }
             }
@@ -121,7 +125,6 @@ public class GamePanel extends JPanel implements MouseMotionListener {
     @Override
     protected void paintComponent(Graphics g) {
         Graphics2D g2D = (Graphics2D) g;
-        g2D.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 
         g2D.drawImage(backgroundImg, 0, 0, this);
         g2D.drawImage(cursorImg, this.cursorRectangle.x, this.cursorRectangle.y, this);
@@ -138,14 +141,14 @@ public class GamePanel extends JPanel implements MouseMotionListener {
             g2D.drawImage(burgerCurrentImage, burger.getX(), burger.getY(), this);
         }
 
-        if (burgerController.isFlownAway()) {
+        if (burgerController.isGone()) {
             g2D.drawImage(flyAwayImage, 300, 85, this);
         }
 
         if (isGameFinished) {
-            g2D.drawImage(gameResultImage, 300, 50, this);
+            g2D.drawImage(gameResultImage, 300, 350, this);
             if (showImage && pressEnterImage != null) {
-                g2D.drawImage(pressEnterImage, 300, 85, this);
+                g2D.drawImage(pressEnterImage, 300, 385, this);
             }
         }
 
@@ -206,7 +209,7 @@ public class GamePanel extends JPanel implements MouseMotionListener {
         }
 
         public void stop() {
-            burgerController.theburgerIsFlownAway(false);
+            burgerController.theburgerIsGone(false);
             currentAmmoNumber = 0;
             imageBlinker();
             notifyGameStatus();
@@ -217,9 +220,9 @@ public class GamePanel extends JPanel implements MouseMotionListener {
 
         private void reset() {
             isGameFinished = false;
-            burgerController.theburgerIsFlownAway(false);
+            burgerController.theburgerIsGone(false);
             isGameFinished = false;
-            killedburgers = 0;
+            shotburgers = 0;
             i = 0;
         }
 
@@ -236,7 +239,8 @@ public class GamePanel extends JPanel implements MouseMotionListener {
                         ronController.getAnimation().start(burgerController.isshot());
                         i++;
                     }
-                    if (killedburgers >= 1) {
+                    //set the variable for burgers to win
+                    if (shotburgers >= 6) {
                         System.out.println("YOU WIN");
                         gameResultImage = Resources.getImage("/images/youWin.png");
                         repaint();
