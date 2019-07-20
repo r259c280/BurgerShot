@@ -54,6 +54,6 @@ However Future updates will include:
 
 
 # Some Visuals
-
-![Alt text](https://github.com/r259c280/BurgerShot/blob/init/Java/src/main/resources/images/gameBackground.png?raw=true "Game Panel")
 ![Alt text](https://github.com/r259c280/BurgerShot/blob/init/Java/src/main/resources/images/menuPanelBackground.png?raw=true "Menu Panel")
+![Alt text](https://github.com/r259c280/BurgerShot/blob/init/Java/src/main/resources/images/instructionsBackgroundwithText.png?raw=true "Instructions Panel")
+![Alt text](https://github.com/r259c280/BurgerShot/blob/init/Java/src/main/resources/images/gameBackground.png?raw=true "Game Panel")
