@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="BurgerShot_script" package="BurgerShot.suite" timestamp="2019-07-20 16:24:45.456 -0500"
+ tests="2"  failures="2" errors="0" time="28.633000">
+  <properties>
+   <property name="RunDate" value="2019-07-20 16:24:45.456 -0500"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Open Burger Shot" assertions="1" status="error"  time="28.545">
+    <failure type="LogError" message="Exception encountered click Error - No Image Found On Screen: &quot;Eclipse/Text_BurgerShot&quot;" />
+  </testcase>
+  <testcase name="BurgerShot.script" assertions="1" status="error"  time="28.611">
+    <failure type="LogError" message="Exception encountered click Error - No Image Found On Screen: &quot;Eclipse/Text_BurgerShot&quot;" />
+    <failure type="FAILURE" message="Script Error Number of Errors logged: 1 -- Execution Time 0:00:29 BurgerShot.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

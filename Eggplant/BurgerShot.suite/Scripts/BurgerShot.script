@@ -6,10 +6,14 @@
 Purpose: To play the burger shot game autonomously
 
 Scenario: 
-
+- Open BurgerShot
+- Main Menu BurgerShot
+- Instruction Menu BurgerShot
+- Play BurgerShot
+- Exit BurgerShot
 
 //Github: 
-
+https://github.com/r259c280/BurgerShot
 
 *)
 //++++++++++++++++++++++++++++++++++++++
@@ -24,7 +28,6 @@ set global waitTime to setupData.waitTime
 
 try
 	
-	
 	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	//++++++++++++++++++Open Burger Shot++++++++++++++++++++
@@ -33,18 +36,17 @@ try
 	
 	//++++++++++++++++++++++++++++++++++++++
 	//++++ACTION++++ Open Eclipse and navigate to Burgershot game and open it
-	run "Setup/Task".open application
-	//run "Setup/Task".openAlt 
+	run "Setup/Interaction".open application
+	//run "Setup/Interaction".openAlt 
 	log "Starting up BurgerShot"
 	wait 10
-	run "Setup/Task".startBurgerShot
+	run "Setup/Interaction".startBurgerShot
 	
 	//++++++++++++++++++++++++++++++++++++++
 	//++++VERIFICATION++++
 	run "Util/Verify".saveScreenshot scenario
 	
 	EndTestCase scenario
-	
 	//+++++++++++++++++++Open BurgerShot+++++++++++++++++++++++++++++++
 	//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -74,6 +76,7 @@ try
 	run "Util/Verify".imageIsVisible "MainFrame/Text_Exit",rectangle
 	
 	run "Util/Verify".saveScreenshot scenario
+	
 	EndTestCase scenario
 	//+++++++++++++++++++Main Menu BurgerShot+++++++++++++++++++++++++++
 	//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -94,6 +97,8 @@ try
 	log "Navigating to instructions"
 	click "MainFrame/Text_Instructions"
 	
+	//++++++++++++++++++++++++++++++++++++++
+	//++++VERIFICATION++++
 	log "Verifying Ronald Mcdonald is visible up in the middle of the menu"
 	run "Util/Verify".imageIsVisible "Icon_Mcdonalds",rectangle
 	run "Util/Verify".imageIsVisible "Banner_BurgerShot", rectangle
@@ -102,12 +107,14 @@ try
 	
 	run "Util/Verify".saveScreenshot scenario
 	typeText returnKey
+	wait 5
+	run "Util/Verify".saveScreenshot scenario & " returned to menu frame"
 	
-	run "Util/Verify".saveScreenshot scenario & "returned to menu frame"
 	EndTestCase scenario
 	//+++++++++++++++++++Main Menu BurgerShot+++++++++++++++++++++++++++
 	//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
 	
 	
 	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -115,28 +122,17 @@ try
 	//++++++++++++++++++Play BurgerShot++++++++++++++++++++++++++++++++
 	set scenario to "Game Panel"
 	BeginTestCase scenario
+	
 	//++++++++++++++++++++++++++++++++++++++
-	//++++ACTION++++ Open the Game Panel and soak the burgers in KETCHUP!!!!
+	//++++ACTION++++ Open the Game Panel and soak them burgers in KETCHUP!!!!
 	click "MainFrame/Text_Play"
 	Log "Finding the burger"
-	set tempRemoteWorkInterval to the remoteWorkInterval 
-	set the remoteWorkInterval to "0.1"
-	set rectangle to "Setup/Task".MiddleMiddleSearchRectangle()
-	//set rectangle to "Setup/Task".MiddleLeftSearchRectangle()
-	//set rectangle to "Setup/Task".FrameSearchRectangle()
-	repeat for 30 times
-		repeat until  imageFound(image:"GamePanel/Burger", SearchRectangle:rectangle)
-		end repeat
-		
-		//Repeat 30 times
-		//click FoundImageLocation()
-		//end repeat
-		click FoundImageLocation()
-	end repeat
+	run "Setup/Interaction".getThemBurgers
 	
-	set the remoteWorkInterval to tempRemoteWorkInterval
+	//++++++++++++++++++++++++++++++++++++++
+	//++++VERIFICATION++++
+	run "Util/Verify".saveScreenshot scenario & "End Game"
 	
-	run "Util/Verify".saveScreenshot scenario & "returned to menu frame"
 	EndTestCase scenario
 	//+++++++++++++++++++Play BurgerShot+++++++++++++++++++++++++++++++
 	//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -149,21 +145,29 @@ try
 	//++++++++++++++++++Exit BurgerShot++++++++++++++++++++++++++++++++
 	set scenario to "Exit Game"
 	BeginTestCase scenario
+	
+	//++++++++++++++++++++++++++++++++++++++
+	//++++VERIFICATION++++
 	wait 10
-	if imageFound(image:"GamePanel/EndGame")
-		log "Returning the the Main Menu"
-		typetext returnKey
-	end if
+	run "Util/Verify".saveScreenshot scenario & "Results"
+	
+	//++++++++++++++++++++++++++++++++++++++
+	//++++ACTION++++ If the game has been completed, exit the game
+	run "Setup/Task".winOrLose
 	log "exiting the game"
 	click "MainFrame/Text_Exit"
+	wait 3
 	
-	run "Util/Verify".saveScreenshot scenario 
+	//++++++++++++++++++++++++++++++++++++++
+	//++++VERIFICATION++++
+	run "Util/Verify".saveScreenshot scenario && "End game returning to menu frame"
+	
 	EndTestCase scenario
 	//+++++++++++++++++++Exit BurgerShot+++++++++++++++++++++++++++++++
 	//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	
-catch exception
+	catch exception
 	LogError "Exception encountered" && exception.reason
 	run "Util/Verify".saveScreenshot "Exception"
 end try

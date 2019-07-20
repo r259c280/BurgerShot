@@ -1,0 +1,13 @@
+﻿2019-07-20 15:30:10.531 -0500	START		Running BurgerShot.script
+2019-07-20 15:30:10.847 -0500	Log		SetupData: (applcationRyan:@"C:\\Users\\Ryan\\eclipsejava-photon\\eclipse\\eclipse.exe", application:@"C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe", game:"Burger Shot", remoteWorkInterval:"1.5", scriptlogging:"off", waitTime:"5")	18	on_burgershot	BurgerShot.script
+2019-07-20 15:30:10.863 -0500	set		REMOTEWORKINTERVAL = 1.5	21	on_burgershot	BurgerShot.script
+2019-07-20 15:30:10.865 -0500	BeginTestCase		Game Panel	118	on_burgershot	BurgerShot.script
+2019-07-20 15:30:11.027 -0500	Log		Finding the burger	122	on_burgershot	BurgerShot.script
+2019-07-20 15:33:49.923 -0500	Log		Saving Screenshot: 1784029-Game Panelreturned to menu frame	3	on_savescreenshot	Util/Verify.script
+2019-07-20 15:33:50.132 -0500	EndTestCase		(Duration:"219.266", Errors:"0", Exceptions:"0", StartTime:"2019-07-20 15:30:10 -0500", Successes:"0", TestCase:"Game Panel", Warnings:"0")	141	on_burgershot	BurgerShot.script
+2019-07-20 15:33:50.134 -0500	BeginTestCase		Exit Game	152	on_burgershot	BurgerShot.script
+2019-07-20 15:34:03.055 -0500	Log		exiting the game	158	on_burgershot	BurgerShot.script
+2019-07-20 15:35:35.474 -0500	Log		Saving Screenshot: 1784135-Exit Game	3	on_savescreenshot	Util/Verify.script
+2019-07-20 15:35:35.807 -0500	EndTestCase		(Duration:"105.671", Errors:"0", Exceptions:"0", StartTime:"2019-07-20 15:33:50 -0500", Successes:"0", TestCase:"Exit Game", Warnings:"0")	162	on_burgershot	BurgerShot.script
+2019-07-20 15:35:36.986 -0500	EndTestCase		(Duration:"326.45", Errors:"0", Exceptions:"0", StartTime:"2019-07-20 15:30:10 -0500", Successes:"1", TestCase:"BurgerShot.script", Warnings:"0")
+2019-07-20 15:35:37.026 -0500	SUCCESS		Execution Time 0:05:26 BurgerShot.script

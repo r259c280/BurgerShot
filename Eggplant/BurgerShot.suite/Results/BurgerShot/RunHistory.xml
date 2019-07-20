@@ -684,4 +684,292 @@
   <ReturnValue></ReturnValue>
   <ErrorMessage></ErrorMessage>
  </run>
+ <run>
+  <RunDate>2019-07-20 15:24:25.070 -0500</RunDate>
+  <Status>Aborted</Status>
+  <Duration>315.842000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20190720_152425.070/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 15:30:10.526 -0500</RunDate>
+  <Status>Success</Status>
+  <Duration>326.459000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20190720_153010.526/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 15:43:13.176 -0500</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.136000</Duration>
+  <Errors>2</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20190720_154313.176/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Unable To Capture Screen -- No connection available from which to capture.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 15:49:36.269 -0500</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.101000</Duration>
+  <Errors>2</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20190720_154936.269/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Unable To Capture Screen -- No connection available from which to capture.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 15:54:42.755 -0500</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.126000</Duration>
+  <Errors>2</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20190720_155442.755/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Unable To Capture Screen -- No connection available from which to capture.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 15:55:37.014 -0500</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.121000</Duration>
+  <Errors>2</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20190720_155537.014/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Unable To Capture Screen -- No connection available from which to capture.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 15:56:18.860 -0500</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.111000</Duration>
+  <Errors>2</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20190720_155618.860/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Unable To Capture Screen -- No connection available from which to capture.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 15:56:54.003 -0500</RunDate>
+  <Status>Failure</Status>
+  <Duration>28.409000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20190720_155654.003/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 15:57:44.745 -0500</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.348000</Duration>
+  <Errors>2</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20190720_155744.745/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Unable To Capture Screen -- No connection available from which to capture.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 15:58:23.351 -0500</RunDate>
+  <Status>Aborted</Status>
+  <Duration>81.328000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20190720_155823.351/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 16:00:25.226 -0500</RunDate>
+  <Status>Success</Status>
+  <Duration>158.817000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20190720_160025.226/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 16:07:32.584 -0500</RunDate>
+  <Status>Success</Status>
+  <Duration>169.711000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20190720_160732.584/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 16:14:10.430 -0500</RunDate>
+  <Status>Success</Status>
+  <Duration>208.112000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20190720_161410.430/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 16:21:03.699 -0500</RunDate>
+  <Status>Failure</Status>
+  <Duration>88.588000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20190720_162103.699/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 16:24:24.336 -0500</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.418000</Duration>
+  <Errors>2</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20190720_162424.336/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Unable To Capture Screen -- No connection available from which to capture.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 16:24:45.456 -0500</RunDate>
+  <Status>Failure</Status>
+  <Duration>28.633000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20190720_162445.456/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 16:31:32.384 -0500</RunDate>
+  <Status>Failure</Status>
+  <Duration>158.906000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20190720_163132.384/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 16:35:37.509 -0500</RunDate>
+  <Status>Aborted</Status>
+  <Duration>2.881000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20190720_163537.509/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 16:36:16.367 -0500</RunDate>
+  <Status>Failure</Status>
+  <Duration>190.651000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20190720_163616.367/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 16:48:10.947 -0500</RunDate>
+  <Status>Failure</Status>
+  <Duration>28.863000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20190720_164810.947/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 16:49:46.474 -0500</RunDate>
+  <Status>Success</Status>
+  <Duration>197.227000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20190720_164946.474/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 17:15:44.543 -0500</RunDate>
+  <Status>Failure</Status>
+  <Duration>24.922000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20190720_171544.543/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 17:20:20.359 -0500</RunDate>
+  <Status>Success</Status>
+  <Duration>199.208000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20190720_172020.359/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2019-07-20 17:52:04.753 -0500</RunDate>
+  <Status>Success</Status>
+  <Duration>496.766000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>10</Successes>
+  <LogFile>20190720_175204.753/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
 </runHistory>

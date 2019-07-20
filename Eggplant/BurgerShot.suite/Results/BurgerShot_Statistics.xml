@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0"?>
 <statistics>
  <script name="BurgerShot">
-  <LastStatus>Failure</LastStatus>
-  <NumberOfRuns>23</NumberOfRuns>
-  <NumberOfFails>16</NumberOfFails>
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>44</NumberOfRuns>
+  <NumberOfFails>30</NumberOfFails>
   <FirstRun>2019-06-23 21:02:27 -0500</FirstRun>
-  <LastRun>20190708 08:44 PM</LastRun>
-  <TotalTimeOnSuccess>626.045000</TotalTimeOnSuccess>
+  <LastRun>2019-07-20 17:52:04 -0500</LastRun>
+  <TotalTimeOnSuccess>2382.345000</TotalTimeOnSuccess>
  </script>
  <script name="Setup/Task">
   <LastStatus>Success</LastStatus>
