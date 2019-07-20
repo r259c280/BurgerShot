@@ -55,4 +55,4 @@ However Future updates will include:
 
 # Some Visuals
 
-![alt text](https://imgur.com/a/c28Fith)
+(https://imgur.com/a/c28Fith)
