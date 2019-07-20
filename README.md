@@ -51,3 +51,8 @@ However Future updates will include:
 - High score at the end of the game (adding initals)
 - Upgrades (different burgers - dirt burgers, bacon burgers, etc.)
 - Upgraded visuals including the instructions pane to include a true 90's 8 bit proportion with Ronald Mcdonald slowly creeping up instead of the hard image)
+
+
+# Some Visuals
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/c28Fith"><a href="//imgur.com/c28Fith"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
