@@ -55,4 +55,4 @@ However Future updates will include:
 
 # Some Visuals
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/c28Fith"><a href="//imgur.com/c28Fith"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![alt text](https://raw.githubusercontent.com/r259c280/Java/src/main/resources/images/gameBackground.png)
