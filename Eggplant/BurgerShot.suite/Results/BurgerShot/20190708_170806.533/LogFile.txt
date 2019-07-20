@@ -1,0 +1,10 @@
+﻿2019-07-08 17:08:06.543 +0000	START		Running BurgerShot.script
+2019-07-08 17:08:06.788 +0000	Log		SetupData: (applcationRyan:@"C:\\Users\\Ryan\\eclipsejava-photon\\eclipse\\eclipse.exe", application:@"C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe", game:"Burger Shot", remoteWorkInterval:"1.5", scriptlogging:"off", waitTime:"5")	18	on_burgershot	BurgerShot.script
+2019-07-08 17:08:06.810 +0000	set		REMOTEWORKINTERVAL = 1.5	21	on_burgershot	BurgerShot.script
+2019-07-08 17:08:06.813 +0000	BeginTestCase		Open Burger Shot	30	on_burgershot	BurgerShot.script
+2019-07-08 17:08:06.816 +0000	Log		Starting up BurgerShot	35	on_burgershot	BurgerShot.script
+2019-07-08 17:08:06.834 +0000	LogError		Exception encountered click Error - Remote Connection Unavailable	164	on_burgershot	BurgerShot.script
+2019-07-08 17:08:06.856 +0000	Log		Saving Screenshot: 752886-Exception	3	on_savescreenshot	Util/Verify.script
+2019-07-08 17:08:07.003 +0000	EndTestCase		(Duration:"0.189", Errors:"2", Exceptions:"1", StartTime:"2019-07-08 12:08:06 -0500", Successes:"0", TestCase:"Open Burger Shot", Warnings:"0")
+2019-07-08 17:08:07.008 +0000	EndTestCase		(Duration:"0.459", Errors:"2", Exceptions:"1", StartTime:"2019-07-08 12:08:06 -0500", Successes:"0", TestCase:"BurgerShot.script", Warnings:"0")
+2019-07-08 17:08:07.047 +0000	FAILURE		Unable To Capture Screen No connection available from which to capture. -- Execution Time 0:00:00 BurgerShot.script

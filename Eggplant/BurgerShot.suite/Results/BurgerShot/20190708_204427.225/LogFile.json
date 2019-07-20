@@ -1,0 +1,66 @@
+{
+	"entries": [
+		{
+				"message": "Running BurgerShot.script",
+				"identifier": "START",
+				"timestamp": "2019-07-08 20:44:27.234 +0000"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:44:27.648 +0000",
+				"message": "SetupData: (applcationRyan:@\"C:\\\\Users\\\\Ryan\\\\eclipsejava-photon\\\\eclipse\\\\eclipse.exe\", application:@\"C:\\\\Users\\\\rc050176\\\\eclipse\\\\java-2019-06\\\\eclipse\\\\eclipse.exe\", game:\"Burger Shot\", remoteWorkInterval:\"1.5\", scriptlogging:\"off\", waitTime:\"5\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 18,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:44:27.669 +0000",
+				"message": "REMOTEWORKINTERVAL = 1.5",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 21,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:44:27.672 +0000",
+				"message": "Open Burger Shot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 32,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:44:27.681 +0000",
+				"message": "Exception encountered in openalt:\\nWarning at line 5: Warning - Non-matching handler name: open",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 167,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_savescreenshot",
+				"timestamp": "2019-07-08 20:44:27.697 +0000",
+				"message": "Saving Screenshot: 765867-Exception",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.476\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2019-07-08 15:44:27 -0500\", Successes:\"0\", TestCase:\"Open Burger Shot\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-08 20:44:28.148 +0000"
+			},
+		{
+				"message": "(Duration:\"0.914\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2019-07-08 15:44:27 -0500\", Successes:\"0\", TestCase:\"BurgerShot.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-08 20:44:28.151 +0000"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Script Error Number of Errors logged: 1 -- Execution Time 0:00:00 BurgerShot.script",
+				"identifier": "FAILURE",
+				"timestamp": "2019-07-08 20:44:28.310 +0000"
+			}
+	],
+	"createdTimestamp": "2019-07-08 20:44:27.236 +0000"
+}

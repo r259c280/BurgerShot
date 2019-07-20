@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="BurgerShot_script" package="BurgerShot.suite" timestamp="2019-07-08 15:44:27 -0500"
+ tests="2"  failures="2" errors="0" time="0.921000">
+  <properties>
+   <property name="RunDate" value="2019-07-08 15:44:27 -0500"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Open Burger Shot" assertions="1" status="failure"  time="0.476">
+    <failure type="LogError" message="Exception encountered in openalt:\nWarning at line 5: Warning - Non-matching handler name: open" />
+  </testcase>
+  <testcase name="BurgerShot.script" assertions="1" status="failure"  time="0.914">
+    <failure type="LogError" message="Exception encountered in openalt:\nWarning at line 5: Warning - Non-matching handler name: open" />
+    <failure type="FAILURE" message="Script Error Number of Errors logged: 1 -- Execution Time 0:00:00 BurgerShot.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="BurgerShot_script" package="BurgerShot.suite" timestamp="2019-06-23 21:12:52.942 -0500"
+ tests="1"  failures="3" errors="0" time="1.097000">
+  <properties>
+   <property name="RunDate" value="2019-06-23 21:12:52.942 -0500"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="BurgerShot.script" assertions="3" status="failure"  time="1.086">
+    <failure type="LogError" message="Exception encountered at: line 34 of burgershot" />
+    <failure type="LogError" message="Exception reason: Bad value for Object expression.  Looking for an object or script identifier, got 'Setup/Task'." />
+    <failure type="FAILURE" message="SRUN_BadValue Bad value for Object expression.  Looking for an object or script identifier, got 'Util/Verify'. -- Execution Time 0:00:02 BurgerShot.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

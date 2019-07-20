@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="BurgerShot_script" package="BurgerShot.suite" timestamp="2019-07-08 12:08:06 -0500"
+ tests="2"  failures="2" errors="0" time="0.469000">
+  <properties>
+   <property name="RunDate" value="2019-07-08 12:08:06 -0500"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Open Burger Shot" assertions="2" status="error"  time="0.189">
+    <failure type="LogError" message="Exception encountered click Error - Remote Connection Unavailable" />
+  </testcase>
+  <testcase name="BurgerShot.script" assertions="2" status="error"  time="0.459">
+    <failure type="LogError" message="Exception encountered click Error - Remote Connection Unavailable" />
+    <failure type="FAILURE" message="Unable To Capture Screen No connection available from which to capture. -- Execution Time 0:00:00 BurgerShot.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,73 @@
+{
+	"entries": [
+		{
+				"message": "Running BurgerShot.script",
+				"identifier": "START",
+				"timestamp": "2019-07-08 17:08:06.543 +0000"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 17:08:06.788 +0000",
+				"message": "SetupData: (applcationRyan:@\"C:\\\\Users\\\\Ryan\\\\eclipsejava-photon\\\\eclipse\\\\eclipse.exe\", application:@\"C:\\\\Users\\\\rc050176\\\\eclipse\\\\java-2019-06\\\\eclipse\\\\eclipse.exe\", game:\"Burger Shot\", remoteWorkInterval:\"1.5\", scriptlogging:\"off\", waitTime:\"5\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 18,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 17:08:06.810 +0000",
+				"message": "REMOTEWORKINTERVAL = 1.5",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 21,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 17:08:06.813 +0000",
+				"message": "Open Burger Shot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 30,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 17:08:06.816 +0000",
+				"message": "Starting up BurgerShot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 35,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 17:08:06.834 +0000",
+				"message": "Exception encountered click Error - Remote Connection Unavailable",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 164,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_savescreenshot",
+				"timestamp": "2019-07-08 17:08:06.856 +0000",
+				"message": "Saving Screenshot: 752886-Exception",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"0.189\", Errors:\"2\", Exceptions:\"1\", StartTime:\"2019-07-08 12:08:06 -0500\", Successes:\"0\", TestCase:\"Open Burger Shot\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-08 17:08:07.003 +0000"
+			},
+		{
+				"message": "(Duration:\"0.459\", Errors:\"2\", Exceptions:\"1\", StartTime:\"2019-07-08 12:08:06 -0500\", Successes:\"0\", TestCase:\"BurgerShot.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-08 17:08:07.008 +0000"
+			},
+		{
+				"message": "Unable To Capture Screen No connection available from which to capture. -- Execution Time 0:00:00 BurgerShot.script",
+				"identifier": "FAILURE",
+				"timestamp": "2019-07-08 17:08:07.047 +0000"
+			}
+	],
+	"createdTimestamp": "2019-07-08 17:08:06.547 +0000"
+}

@@ -1,0 +1,38 @@
+ {
+ 	"DEFAULT":{
+		"server":"ipsol3.ip.devcerner.net",
+		"user1":"rc050176",
+		"relationship":"Attending Physician",
+		"dateFormat":"%B %d, %Y",
+		"officeAppointment":{
+			"date":"6/14/2019",
+			"time":"8:27 AM",
+			"duration":"1 hr",
+			"patient":"Charles, carlos",
+			"resource":"rolf, casey",
+			"task":"Note",
+			"pid":"10785849",
+		},
+		"surgeryAppointment":{
+			"date":"6/12/2019",
+			"time":"11:06 AM",
+			"duration":"1 hr",
+			"patient":"Charles, Austin",
+			"resource":"rolf, casey",
+			"task":"H and P",
+			"pid":"10588834",
+		}
+	},
+	"SOLGM":{
+	
+	},
+	"INTGM":{
+	
+	},
+	"1501EXPKG":{
+	
+	},
+	"S18VX":{
+	
+	}
+}

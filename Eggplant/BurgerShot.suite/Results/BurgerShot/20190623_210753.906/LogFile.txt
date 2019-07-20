@@ -1,0 +1,3 @@
+﻿2019-06-23 21:07:53.915 -0500	START		Running BurgerShot.script
+2019-06-23 21:07:54.780 -0500	EndTestCase		(Duration:"0.859", Errors:"1", Exceptions:"0", StartTime:"2019-06-23 21:07:53 -0500", Successes:"0", TestCase:"BurgerShot.script", Warnings:"0")
+2019-06-23 21:07:54.988 -0500	FAILURE	Screen_Error.png	STUnknownMessage ERROR: No Such Function: 'initializeresourcedata' -- Execution Time 0:00:01 BurgerShot.script

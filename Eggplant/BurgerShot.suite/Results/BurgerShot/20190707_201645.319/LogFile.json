@@ -1,0 +1,130 @@
+{
+	"entries": [
+		{
+				"message": "Running BurgerShot.script",
+				"identifier": "START",
+				"timestamp": "2019-07-07 20:16:45.319 +0000"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 20:16:45.582 +0000",
+				"message": "SetupData: (application:@\"C:\\\\Users\\\\rc050176\\\\eclipse\\\\java-2019-06\\\\eclipse\\\\eclipse.exe\", game:\"Burger Shot\", remoteWorkInterval:\"1.5\", scriptlogging:\"off\", waitTime:\"5\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 18,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 20:16:45.582 +0000",
+				"message": "REMOTEWORKINTERVAL = 1.5",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 22,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 20:16:45.582 +0000",
+				"message": "Open Burger Shot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 37,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"handlerName": "on_open",
+				"timestamp": "2019-07-07 20:16:45.598 +0000",
+				"message": "Login to: Eclipse",
+				"scriptName": "Setup/Task.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 20:16:59.126 +0000",
+				"message": "Starting up BurgerShot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 42,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_savescreenshot",
+				"timestamp": "2019-07-07 20:17:09.352 +0000",
+				"message": "Saving Screenshot: 677829-Open Burger Shot",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 20:17:09.490 +0000",
+				"message": "(Duration:\"23.908\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2019-07-07 15:16:45 -0500\", Successes:\"0\", TestCase:\"Open Burger Shot\", Warnings:\"0\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 49,
+				"identifier": "EndTestCase"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 20:17:09.506 +0000",
+				"message": "Main Frame",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 61,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 20:17:11.935 +0000",
+				"message": "Verifying the Mcdonalds Icon is visible in the top left corner",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 66,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_imageisvisible",
+				"timestamp": "2019-07-07 20:17:11.947 +0000",
+				"message": "Found the image: Icon_Mcdonalds",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 20:17:11.994 +0000",
+				"message": "Exception encountered at: line 68 of burgershot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 124,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 20:17:12.014 +0000",
+				"message": "Exception reason: ERROR: No Such Command: 'textisvisible'",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 125,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_savescreenshot",
+				"timestamp": "2019-07-07 20:17:12.060 +0000",
+				"message": "Saving Screenshot: 677832-Exception",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"2.839\", Errors:\"2\", Exceptions:\"0\", StartTime:\"2019-07-07 15:17:09 -0500\", Successes:\"1\", TestCase:\"Main Frame\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-07 20:17:12.345 +0000"
+			},
+		{
+				"message": "(Duration:\"27.01\", Errors:\"2\", Exceptions:\"0\", StartTime:\"2019-07-07 15:16:45 -0500\", Successes:\"1\", TestCase:\"BurgerShot.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-07 20:17:12.345 +0000"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Script Error Number of Errors logged: 2 -- Execution Time 0:00:27 BurgerShot.script",
+				"identifier": "FAILURE",
+				"timestamp": "2019-07-07 20:17:12.514 +0000"
+			}
+	],
+	"createdTimestamp": "2019-07-07 20:16:45.335 +0000"
+}

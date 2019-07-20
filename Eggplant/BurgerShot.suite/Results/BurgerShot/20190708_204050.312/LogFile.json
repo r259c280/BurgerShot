@@ -1,0 +1,82 @@
+{
+	"entries": [
+		{
+				"message": "Running BurgerShot.script",
+				"identifier": "START",
+				"timestamp": "2019-07-08 20:40:50.317 +0000"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:40:50.731 +0000",
+				"message": "SetupData: (applcationRyan:@\"C:\\\\Users\\\\Ryan\\\\eclipsejava-photon\\\\eclipse\\\\eclipse.exe\", application:@\"C:\\\\Users\\\\rc050176\\\\eclipse\\\\java-2019-06\\\\eclipse\\\\eclipse.exe\", game:\"Burger Shot\", remoteWorkInterval:\"1.5\", scriptlogging:\"off\", waitTime:\"5\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 18,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:40:50.749 +0000",
+				"message": "REMOTEWORKINTERVAL = 1.5",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 21,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:40:50.751 +0000",
+				"message": "Open Burger Shot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 32,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"handlerName": "on_open",
+				"timestamp": "2019-07-08 20:40:50.769 +0000",
+				"message": "Login to: Eclipse",
+				"scriptName": "Setup/Task.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:41:13.170 +0000",
+				"message": "Starting up BurgerShot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 37,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:42:00.526 +0000",
+				"message": "Exception encountered click Error - No Image Found On Screen: \"Eclipse/Text_BurgerShotRyan\"",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 166,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_savescreenshot",
+				"timestamp": "2019-07-08 20:42:00.589 +0000",
+				"message": "Saving Screenshot: 765720-Exception",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"71.533\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2019-07-08 15:40:50 -0500\", Successes:\"0\", TestCase:\"Open Burger Shot\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-08 20:42:02.286 +0000"
+			},
+		{
+				"message": "(Duration:\"71.967\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2019-07-08 15:40:50 -0500\", Successes:\"0\", TestCase:\"BurgerShot.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-08 20:42:02.289 +0000"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Script Error Number of Errors logged: 1 -- Execution Time 0:01:11 BurgerShot.script",
+				"identifier": "FAILURE",
+				"timestamp": "2019-07-08 20:42:02.442 +0000"
+			}
+	],
+	"createdTimestamp": "2019-07-08 20:40:50.321 +0000"
+}

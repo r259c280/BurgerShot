@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="BurgerShot_script" package="BurgerShot.suite" timestamp="2019-07-07 14:16:50 -0500"
+ tests="2"  failures="3" errors="0" time="16.882000">
+  <properties>
+   <property name="RunDate" value="2019-07-07 14:16:50 -0500"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Open Burger Shot" assertions="3" status="error"  time="15.235">
+    <failure type="LogError" message="Exception encountered at: line 3 of open\ncalled from line 39 of burgershot" />
+    <failure type="LogError" message="Exception reason: typetext Error - Remote Connection Unavailable" />
+  </testcase>
+  <testcase name="BurgerShot.script" assertions="3" status="error"  time="16.718">
+    <failure type="LogError" message="Exception encountered at: line 3 of open\ncalled from line 39 of burgershot" />
+    <failure type="LogError" message="Exception reason: typetext Error - Remote Connection Unavailable" />
+    <failure type="FAILURE" message="Unable To Capture Screen No connection available from which to capture. -- Execution Time 0:00:16 BurgerShot.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

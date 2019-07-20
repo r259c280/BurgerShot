@@ -1,0 +1,14 @@
+﻿2019-07-08 20:44:46.512 +0000	START		Running BurgerShot.script
+2019-07-08 20:44:46.964 +0000	Log		SetupData: (applcationRyan:@"C:\\Users\\Ryan\\eclipsejava-photon\\eclipse\\eclipse.exe", application:@"C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe", game:"Burger Shot", remoteWorkInterval:"1.5", scriptlogging:"off", waitTime:"5")	18	on_burgershot	BurgerShot.script
+2019-07-08 20:44:46.981 +0000	set		REMOTEWORKINTERVAL = 1.5	21	on_burgershot	BurgerShot.script
+2019-07-08 20:44:46.984 +0000	BeginTestCase		Open Burger Shot	32	on_burgershot	BurgerShot.script
+2019-07-08 20:44:46.997 +0000	Log		Login to: Eclipse	2	on_openalt	Setup/Task.script
+2019-07-08 20:45:00.240 +0000	Log		Starting up BurgerShot	38	on_burgershot	BurgerShot.script
+2019-07-08 20:45:22.438 +0000	Log		Saving Screenshot: 765922-Open Burger Shot	3	on_savescreenshot	Util/Verify.script
+2019-07-08 20:45:22.597 +0000	EndTestCase		(Duration:"35.611", Errors:"0", Exceptions:"0", StartTime:"2019-07-08 15:44:46 -0500", Successes:"0", TestCase:"Open Burger Shot", Warnings:"0")	46	on_burgershot	BurgerShot.script
+2019-07-08 20:45:22.600 +0000	BeginTestCase		Main Frame	58	on_burgershot	BurgerShot.script
+2019-07-08 20:47:33.063 +0000	Log		Verifying the Mcdonalds Icon is visible in the top left corner	64	on_burgershot	BurgerShot.script
+2019-07-08 20:47:43.093 +0000	LogError		Could Not find: Icon_Mcdonalds	5	on_imageisvisible	Util/Verify.script
+2019-07-08 20:47:45.400 +0000	EndTestCase		(Duration:"142.799", Errors:"2", Exceptions:"0", StartTime:"2019-07-08 15:45:22 -0500", Successes:"0", TestCase:"Main Frame", Warnings:"0")
+2019-07-08 20:47:45.403 +0000	EndTestCase		(Duration:"178.886", Errors:"2", Exceptions:"0", StartTime:"2019-07-08 15:44:46 -0500", Successes:"0", TestCase:"BurgerShot.script", Warnings:"0")
+2019-07-08 20:47:45.424 +0000	ABORTED		Execution Time 0:02:58 BurgerShot.script

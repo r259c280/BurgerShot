@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="BurgerShot_script" package="BurgerShot.suite" timestamp="2019-06-23 21:02:56.692 -0500"
+ tests="1"  failures="1" errors="0" time="0.717000">
+  <properties>
+   <property name="RunDate" value="2019-06-23 21:02:56.692 -0500"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="BurgerShot.script" assertions="1" status="failure"  time="0.705">
+    <failure type="FAILURE" message="SRUN_InvalidValueExpr Unable to take value of expression ' {⏎\t&quot;DEFAULT&quot;:{⏎\t\t&quot;applicaiton&quot;:&quot;C:\Users\rc050176\eclipse\java-2019-06\eclipse\eclipse.exe&quot;,⏎...' (reason: (null)) -- Execution Time 0:00:01 BurgerShot.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

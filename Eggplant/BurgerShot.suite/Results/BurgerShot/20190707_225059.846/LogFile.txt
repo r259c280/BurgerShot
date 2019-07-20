@@ -1,0 +1,38 @@
+﻿2019-07-07 22:50:59.862 +0000	START		Running BurgerShot.script
+2019-07-07 22:51:00.229 +0000	Log		SetupData: (application:@"C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe", game:"Burger Shot", remoteWorkInterval:"1.5", scriptlogging:"off", waitTime:"5")	18	on_burgershot	BurgerShot.script
+2019-07-07 22:51:00.231 +0000	set		REMOTEWORKINTERVAL = 1.5	21	on_burgershot	BurgerShot.script
+2019-07-07 22:51:00.235 +0000	BeginTestCase		Open Burger Shot	30	on_burgershot	BurgerShot.script
+2019-07-07 22:51:00.244 +0000	Log		Login to: Eclipse	2	on_open	Setup/Task.script
+2019-07-07 22:51:16.830 +0000	Log		Starting up BurgerShot	35	on_burgershot	BurgerShot.script
+2019-07-07 22:51:28.645 +0000	Log		Saving Screenshot: 687088-Open Burger Shot	3	on_savescreenshot	Util/Verify.script
+2019-07-07 22:51:28.792 +0000	EndTestCase		(Duration:"28.558", Errors:"0", Exceptions:"0", StartTime:"2019-07-07 17:51:00 -0500", Successes:"0", TestCase:"Open Burger Shot", Warnings:"0")	43	on_burgershot	BurgerShot.script
+2019-07-07 22:51:28.792 +0000	BeginTestCase		Main Frame	55	on_burgershot	BurgerShot.script
+2019-07-07 22:51:36.129 +0000	Log		Verifying the Mcdonalds Icon is visible in the top left corner	61	on_burgershot	BurgerShot.script
+2019-07-07 22:51:36.152 +0000	LogSuccess		Found the image: Icon_Mcdonalds	3	on_imageisvisible	Util/Verify.script
+2019-07-07 22:51:36.268 +0000	LogSuccess		Found the image: Banner_BurgerShot	3	on_imageisvisible	Util/Verify.script
+2019-07-07 22:51:36.330 +0000	Log		Verifying Ronald Mcdonald is visible up in the middle of the menu	65	on_burgershot	BurgerShot.script
+2019-07-07 22:51:36.453 +0000	LogSuccess		Found the image: MainFrame/Icon_RonMcdon	3	on_imageisvisible	Util/Verify.script
+2019-07-07 22:51:36.514 +0000	Log		Verifying the 3 text icons are visible (Play, Instructions, and Exit)	68	on_burgershot	BurgerShot.script
+2019-07-07 22:51:36.631 +0000	LogSuccess		Found the image: MainFrame/Text_Play	3	on_imageisvisible	Util/Verify.script
+2019-07-07 22:51:36.770 +0000	LogSuccess		Found the image: MainFrame/Text_Instructions	3	on_imageisvisible	Util/Verify.script
+2019-07-07 22:51:36.954 +0000	LogSuccess		Found the image: MainFrame/Text_Exit	3	on_imageisvisible	Util/Verify.script
+2019-07-07 22:51:37.155 +0000	Log		Saving Screenshot: 687097-Main Frame	3	on_savescreenshot	Util/Verify.script
+2019-07-07 22:51:37.302 +0000	EndTestCase		(Duration:"8.51", Errors:"0", Exceptions:"0", StartTime:"2019-07-07 17:51:28 -0500", Successes:"6", TestCase:"Main Frame", Warnings:"0")	74	on_burgershot	BurgerShot.script
+2019-07-07 22:51:37.302 +0000	BeginTestCase		Instruction Frame	85	on_burgershot	BurgerShot.script
+2019-07-07 22:51:40.604 +0000	Log		Navigating to instructions	91	on_burgershot	BurgerShot.script
+2019-07-07 22:51:40.804 +0000	Log		Verifying Ronald Mcdonald is visible up in the middle of the menu	94	on_burgershot	BurgerShot.script
+2019-07-07 22:51:40.820 +0000	LogSuccess		Found the image: Icon_Mcdonalds	3	on_imageisvisible	Util/Verify.script
+2019-07-07 22:51:40.951 +0000	LogSuccess		Found the image: Banner_BurgerShot	3	on_imageisvisible	Util/Verify.script
+2019-07-07 22:51:41.184 +0000	LogSuccess		Found the image: InstructionFrame/Text_InstructionInfo	3	on_imageisvisible	Util/Verify.script
+2019-07-07 22:51:41.387 +0000	LogSuccess		Found the image: InstructionFrame/Text_EnterToContinue	3	on_imageisvisible	Util/Verify.script
+2019-07-07 22:51:41.543 +0000	Log		Saving Screenshot: 687101-Instruction Frame	3	on_savescreenshot	Util/Verify.script
+2019-07-07 22:51:42.368 +0000	Log		Saving Screenshot: 687102-Instruction Framereturned to menu frame	3	on_savescreenshot	Util/Verify.script
+2019-07-07 22:51:42.530 +0000	EndTestCase		(Duration:"5.228", Errors:"0", Exceptions:"0", StartTime:"2019-07-07 17:51:37 -0500", Successes:"4", TestCase:"Instruction Frame", Warnings:"0")	104	on_burgershot	BurgerShot.script
+2019-07-07 22:51:42.530 +0000	BeginTestCase		Game Panel	114	on_burgershot	BurgerShot.script
+2019-07-07 22:51:44.034 +0000	Log		Finding the burger	118	on_burgershot	BurgerShot.script
+2019-07-07 22:52:15.891 +0000	Log		Saving Screenshot: 687135-Game Panelreturned to menu frame	3	on_savescreenshot	Util/Verify.script
+2019-07-07 22:52:16.117 +0000	EndTestCase		(Duration:"33.587", Errors:"0", Exceptions:"0", StartTime:"2019-07-07 17:51:42 -0500", Successes:"0", TestCase:"Game Panel", Warnings:"0")	140	on_burgershot	BurgerShot.script
+2019-07-07 22:52:16.119 +0000	BeginTestCase		Game Panel	151	on_burgershot	BurgerShot.script
+2019-07-07 22:52:27.635 +0000	EndTestCase		(Duration:"11.516", Errors:"1", Exceptions:"0", StartTime:"2019-07-07 17:52:16 -0500", Successes:"0", TestCase:"Game Panel", Warnings:"0")
+2019-07-07 22:52:27.635 +0000	EndTestCase		(Duration:"87.773", Errors:"1", Exceptions:"0", StartTime:"2019-07-07 17:50:59 -0500", Successes:"10", TestCase:"BurgerShot.script", Warnings:"0")
+2019-07-07 22:52:27.697 +0000	ABORTED		Execution Time 0:01:27 BurgerShot.script

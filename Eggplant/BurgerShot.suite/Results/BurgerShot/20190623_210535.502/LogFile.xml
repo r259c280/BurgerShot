@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="BurgerShot_script" package="BurgerShot.suite" timestamp="2019-06-23 21:05:35.502 -0500"
+ tests="1"  failures="1" errors="0" time="0.731000">
+  <properties>
+   <property name="RunDate" value="2019-06-23 21:05:35.502 -0500"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="BurgerShot.script" assertions="1" status="failure"  time="0.718">
+    <failure type="FAILURE" message="STUnknownMessage ERROR: No Such Function: 'initializeresourcedata' -- Execution Time 0:00:01 BurgerShot.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

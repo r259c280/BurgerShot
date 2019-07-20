@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Setup/Task_script" package="BurgerShot.suite" timestamp="2019-07-08 12:09:46 -0500"
+ tests="1"  failures="0" errors="0" time="0.423000">
+  <properties>
+   <property name="RunDate" value="2019-07-08 12:09:46 -0500"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Setup/Task.script" assertions="1" status="success"  time="0.41">
+  </testcase>
+ </testsuite>
+</testsuites>

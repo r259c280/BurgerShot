@@ -1,0 +1,9 @@
+﻿(** Set the default data with specific properties 
+@Param dataSet the json data set to parse
+@Handler
+	"Util/Json".initializeResourceData(dataSet)
+**) 
+function initializeResourceData dataSet
+	set defaultSet to dataSet.default
+	return defaultSet
+end initializeResourceData

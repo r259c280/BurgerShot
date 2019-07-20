@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="BurgerShot_script" package="BurgerShot.suite" timestamp="2019-07-07 15:16:45 -0500"
+ tests="3"  failures="3" errors="0" time="27.026000">
+  <properties>
+   <property name="RunDate" value="2019-07-07 15:16:45 -0500"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Open Burger Shot" assertions="0" status="success"  time="23.908">
+  </testcase>
+  <testcase name="Main Frame" assertions="3" status="failure"  time="2.839">
+    <failure type="LogError" message="Exception encountered at: line 68 of burgershot" />
+    <failure type="LogError" message="Exception reason: ERROR: No Such Command: 'textisvisible'" />
+  </testcase>
+  <testcase name="BurgerShot.script" assertions="3" status="failure"  time="27.01">
+    <failure type="LogError" message="Exception encountered at: line 68 of burgershot" />
+    <failure type="LogError" message="Exception reason: ERROR: No Such Command: 'textisvisible'" />
+    <failure type="FAILURE" message="Script Error Number of Errors logged: 2 -- Execution Time 0:00:27 BurgerShot.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

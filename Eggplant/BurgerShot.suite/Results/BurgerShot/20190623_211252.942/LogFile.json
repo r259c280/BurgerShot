@@ -1,0 +1,53 @@
+{
+	"entries": [
+		{
+				"message": "Running BurgerShot.script",
+				"identifier": "START",
+				"timestamp": "2019-06-23 21:12:52.950 -0500"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-06-23 21:12:53.338 -0500",
+				"message": "SetupData: (application:@\"C:\\0sers\\rc050176eclipsejava-2019-06eclipseeclipse.exe\", remoteWorkInterval:\"1.5\", scriptlogging:\"off\", waitTime:\"5\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 18,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-06-23 21:12:53.390 -0500",
+				"message": "REMOTEWORKINTERVAL = 1.5",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 20,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-06-23 21:12:53.569 -0500",
+				"message": "Exception encountered at: line 34 of burgershot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 85,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-06-23 21:12:53.678 -0500",
+				"message": "Exception reason: Bad value for Object expression.  Looking for an object or script identifier, got 'Setup/Task'.",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 86,
+				"identifier": "LogError"
+			},
+		{
+				"message": "(Duration:\"1.086\", Errors:\"3\", Exceptions:\"0\", StartTime:\"2019-06-23 21:12:52 -0500\", Successes:\"0\", TestCase:\"BurgerShot.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-06-23 21:12:54.041 -0500"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "SRUN_BadValue Bad value for Object expression.  Looking for an object or script identifier, got 'Util/Verify'. -- Execution Time 0:00:02 BurgerShot.script",
+				"identifier": "FAILURE",
+				"timestamp": "2019-06-23 21:12:54.264 -0500"
+			}
+	],
+	"createdTimestamp": "2019-06-24 02:12:52.952 +0000"
+}

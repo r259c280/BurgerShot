@@ -1,0 +1,9 @@
+﻿2019-07-08 20:44:27.234 +0000	START		Running BurgerShot.script
+2019-07-08 20:44:27.648 +0000	Log		SetupData: (applcationRyan:@"C:\\Users\\Ryan\\eclipsejava-photon\\eclipse\\eclipse.exe", application:@"C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe", game:"Burger Shot", remoteWorkInterval:"1.5", scriptlogging:"off", waitTime:"5")	18	on_burgershot	BurgerShot.script
+2019-07-08 20:44:27.669 +0000	set		REMOTEWORKINTERVAL = 1.5	21	on_burgershot	BurgerShot.script
+2019-07-08 20:44:27.672 +0000	BeginTestCase		Open Burger Shot	32	on_burgershot	BurgerShot.script
+2019-07-08 20:44:27.681 +0000	LogError		Exception encountered in openalt:\nWarning at line 5: Warning - Non-matching handler name: open	167	on_burgershot	BurgerShot.script
+2019-07-08 20:44:27.697 +0000	Log		Saving Screenshot: 765867-Exception	3	on_savescreenshot	Util/Verify.script
+2019-07-08 20:44:28.148 +0000	EndTestCase		(Duration:"0.476", Errors:"1", Exceptions:"0", StartTime:"2019-07-08 15:44:27 -0500", Successes:"0", TestCase:"Open Burger Shot", Warnings:"0")
+2019-07-08 20:44:28.151 +0000	EndTestCase		(Duration:"0.914", Errors:"1", Exceptions:"0", StartTime:"2019-07-08 15:44:27 -0500", Successes:"0", TestCase:"BurgerShot.script", Warnings:"0")
+2019-07-08 20:44:28.310 +0000	FAILURE	Screen_Error.png	Script Error Number of Errors logged: 1 -- Execution Time 0:00:00 BurgerShot.script
