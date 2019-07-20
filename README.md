@@ -8,11 +8,22 @@ https://www.jetbrains.com/idea/
 Shoot ketchup at the escaped burgers for the hungry customers.
 Shoot 6/10 burgers to win the game
 
+
 Eggplant Scripts require active Eggplant Functional License in order to run. 
+- Eggplant scripts test:
+    - Game launch
+    - Main Frame
+    - Instruction Frame
+    - Game Frame
+    - Game Play
+    - Key functionalities (play, instructions, exit, keystrokes, etc)
 
 
 
-Game is complete some add-ons for the future will include:
+The first version of the Game is currently complete.
+
+
+However Future updates will include:
 - 3 more game modes with 3 more characters 
     - Hamburgler (insane Mode)
     - Grimace (Hard Mode)
