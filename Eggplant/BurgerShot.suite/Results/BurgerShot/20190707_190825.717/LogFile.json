@@ -1,0 +1,57 @@
+{
+	"entries": [
+		{
+				"message": "Running BurgerShot.script",
+				"identifier": "START",
+				"timestamp": "2019-07-07 19:08:25.724 +0000"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 19:08:25.840 +0000",
+				"message": "SetupData: (application:@\"C:\\0sers\\rc050176eclipsejava-2019-06eclipseeclipse.exe\", remoteWorkInterval:\"1.5\", scriptlogging:\"off\", waitTime:\"5\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 18,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 19:08:25.840 +0000",
+				"message": "REMOTEWORKINTERVAL = 1.5",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 20,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 19:08:25.840 +0000",
+				"message": "Open Burger Shot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 35,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"handlerName": "on_open",
+				"timestamp": "2019-07-07 19:08:25.855 +0000",
+				"message": "Login to: Eclipse",
+				"scriptName": "Setup/Task.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"7.463\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2019-07-07 14:08:25 -0500\", Successes:\"0\", TestCase:\"Open Burger Shot\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-07 19:08:33.303 +0000"
+			},
+		{
+				"message": "(Duration:\"7.595\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2019-07-07 14:08:25 -0500\", Successes:\"0\", TestCase:\"BurgerShot.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-07 19:08:33.319 +0000"
+			},
+		{
+				"message": "Execution Time 0:00:07 BurgerShot.script",
+				"identifier": "ABORTED",
+				"timestamp": "2019-07-07 19:08:33.334 +0000"
+			}
+	],
+	"createdTimestamp": "2019-07-07 19:08:25.724 +0000"
+}

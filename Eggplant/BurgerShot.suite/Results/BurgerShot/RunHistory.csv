@@ -1,0 +1,58 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2019-06-23 21:02:27.142 -0500,"Failure",0:00:00,1,0,0,"20190623_210227.142/LogFile.txt","","SRUN_InvalidValueExpr -- Unable to take value of expression ' {\r⏎	""DEFAULT"":{\r⏎		""applicaiton"":""C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe"",\r⏎...' (reason: (null))",0
+2019-06-23 21:02:56.692 -0500,"Failure",0:00:00,1,0,0,"20190623_210256.692/LogFile.txt","","SRUN_InvalidValueExpr -- Unable to take value of expression ' {\r⏎	""DEFAULT"":{\r⏎		""applicaiton"":""C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe"",\r⏎...' (reason: (null))",0
+2019-06-23 21:03:27.467 -0500,"Failure",0:00:00,1,0,0,"20190623_210327.467/LogFile.txt","","SRUN_InvalidValueExpr -- Unable to take value of expression ' {\r⏎	""applicaiton"":""C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe"",\r⏎	""remoteWorkInt...' (reason: (null))",0
+2019-06-23 21:03:44.933 -0500,"Failure",0:00:00,1,0,0,"20190623_210344.933/LogFile.txt","","SRUN_InvalidValueExpr -- Unable to take value of expression ' {\r⏎	""application"":""C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe"",\r⏎	""remoteWorkInt...' (reason: (null))",0
+2019-06-23 21:05:35.502 -0500,"Failure",0:00:00,1,0,0,"20190623_210535.502/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'initializeresourcedata'",0
+2019-06-23 21:07:53.906 -0500,"Failure",0:00:00,1,0,0,"20190623_210753.906/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'initializeresourcedata'",0
+2019-06-23 21:10:28.706 -0500,"Failure",0:00:00,1,0,0,"20190623_211028.706/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'initializeresourcedata'",0
+2019-06-23 21:12:52.942 -0500,"Failure",0:00:01,3,0,0,"20190623_211252.942/LogFile.txt","","SRUN_BadValue -- Bad value for Object expression.  Looking for an object or script identifier, got 'Util/Verify'.",0
+2019-06-23 21:14:40.125 -0500,"Failure",0:00:04,2,0,0,"20190623_211440.125/LogFile.txt","","Script Error -- Number of Errors logged: 2",0
+2019-06-23 21:17:11.514 -0500,"Aborted",0:00:58,1,0,0,"20190623_211711.514/LogFile.txt","","",0
+2019-06-23 21:18:11.715 -0500,"Aborted",0:03:18,1,0,0,"20190623_211811.715/LogFile.txt","","",0
+2019-06-23 21:21:31.767 -0500,"Aborted",0:01:25,1,0,0,"20190623_212131.767/LogFile.txt","","",0
+2019-06-23 21:30:31.993 -0500,"Success",0:00:21,0,0,0,"20190623_213031.993/LogFile.txt","","",1
+2019-06-23 21:31:26.295 -0500,"Success",0:00:16,0,0,0,"20190623_213126.295/LogFile.txt","","",1
+2019-07-07 14:03:56 -0500,"Failure",0:00:12,2,0,1,"20190707_190356.139/LogFile.txt","","Script Error -- Number of Errors logged: 2",0
+2019-07-07 14:04:22 -0500,"Aborted",0:00:05,1,0,0,"20190707_190422.724/LogFile.txt","","",0
+2019-07-07 14:05:21 -0500,"Failure",0:00:13,2,0,1,"20190707_190521.942/LogFile.txt","","Script Error -- Number of Errors logged: 2",0
+2019-07-07 14:08:25 -0500,"Aborted",0:00:07,1,0,0,"20190707_190825.717/LogFile.txt","","",0
+2019-07-07 14:11:55 -0500,"Aborted",0:00:06,1,0,0,"20190707_191155.491/LogFile.txt","","",0
+2019-07-07 14:12:37 -0500,"Aborted",0:00:05,1,0,0,"20190707_191237.545/LogFile.txt","","",0
+2019-07-07 14:16:50 -0500,"Failure",0:00:16,3,0,1,"20190707_191650.269/LogFile.txt","","Unable To Capture Screen -- No connection available from which to capture.",0
+2019-07-07 14:17:11 -0500,"Aborted",0:00:02,1,0,0,"20190707_191711.648/LogFile.txt","","",0
+2019-07-07 14:17:21 -0500,"Aborted",0:00:25,1,0,0,"20190707_191721.159/LogFile.txt","","",0
+2019-07-07 14:17:54 -0500,"Aborted",0:00:17,1,0,0,"20190707_191754.826/LogFile.txt","","",0
+2019-07-07 14:18:12 -0500,"Aborted",0:02:04,1,0,0,"20190707_191812.926/LogFile.txt","","",0
+2019-07-07 14:24:00 -0500,"Success",0:01:50,0,0,0,"20190707_192400.658/LogFile.txt","","",1
+2019-07-07 14:56:26 -0500,"Aborted",0:00:50,1,0,0,"20190707_195626.019/LogFile.txt","","",0
+2019-07-07 14:57:30 -0500,"Aborted",0:00:49,1,0,0,"20190707_195730.422/LogFile.txt","","",4
+2019-07-07 15:16:45 -0500,"Failure",0:00:27,2,0,0,"20190707_201645.319/LogFile.txt","","Script Error -- Number of Errors logged: 2",1
+2019-07-07 15:19:31 -0500,"Success",0:00:27,0,0,0,"20190707_201931.396/LogFile.txt","","",10
+2019-07-07 17:30:01 -0500,"Aborted",0:01:57,1,0,0,"20190707_223001.900/LogFile.txt","","",10
+2019-07-07 17:36:12 -0500,"Aborted",0:01:21,1,0,0,"20190707_223612.826/LogFile.txt","","",10
+2019-07-07 17:39:50 -0500,"Aborted",0:00:03,1,0,0,"20190707_223950.768/LogFile.txt","","",0
+2019-07-07 17:45:05 -0500,"Aborted",0:02:04,1,0,0,"20190707_224505.951/LogFile.txt","","",10
+2019-07-07 17:47:20 -0500,"Aborted",0:01:49,1,0,0,"20190707_224720.126/LogFile.txt","","",10
+2019-07-07 17:50:59 -0500,"Aborted",0:01:27,1,0,0,"20190707_225059.846/LogFile.txt","","",10
+2019-07-07 17:54:54 -0500,"Success",0:01:34,0,0,0,"20190707_225454.049/LogFile.txt","","",10
+2019-07-07 17:59:16 -0500,"Success",0:01:47,0,0,0,"20190707_225916.192/LogFile.txt","","",10
+2019-07-07 18:01:53 -0500,"Aborted",0:03:14,1,0,0,"20190707_230153.167/LogFile.txt","","",10
+2019-07-07 18:05:51 -0500,"Success",0:04:08,0,0,0,"20190707_230551.250/LogFile.txt","","",10
+2019-07-08 12:08:06 -0500,"Failure",0:00:00,2,0,1,"20190708_170806.533/LogFile.txt","","Unable To Capture Screen -- No connection available from which to capture.",0
+2019-07-08 12:08:27 -0500,"Aborted",0:00:43,1,0,1,"20190708_170827.153/LogFile.txt","","",0
+2019-07-08 12:09:51 -0500,"Aborted",0:00:25,1,0,0,"20190708_170951.299/LogFile.txt","","",0
+2019-07-08 12:10:43 -0500,"Aborted",0:00:13,1,0,0,"20190708_171043.225/LogFile.txt","","",0
+2019-07-08 12:11:07 -0500,"Aborted",0:03:55,1,0,0,"20190708_171107.755/LogFile.txt","","",0
+2019-07-08 15:40:07 -0500,"Aborted",0:00:10,1,0,0,"20190708_204007.158/LogFile.txt","","",0
+2019-07-08 15:40:50 -0500,"Failure",0:01:11,1,0,1,"20190708_204050.312/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2019-07-08 15:42:20 -0500,"Aborted",0:00:18,1,0,0,"20190708_204220.903/LogFile.txt","","",0
+2019-07-08 15:44:27 -0500,"Failure",0:00:00,1,0,0,"20190708_204427.225/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2019-07-08 15:44:46 -0500,"Aborted",0:02:58,2,0,0,"20190708_204446.505/LogFile.txt","","",0
+2019-07-08 15:48:24 -0500,"Aborted",0:00:51,2,0,0,"20190708_204824.070/LogFile.txt","","",0
+2019-07-08 15:57:38 -0500,"Aborted",0:01:31,1,0,0,"20190708_205738.942/LogFile.txt","","",10
+2019-07-08 16:01:08 -0500,"Aborted",0:02:40,1,0,0,"20190708_210108.499/LogFile.txt","","",10
+2019-07-08 16:03:50 -0500,"Aborted",0:02:37,1,0,0,"20190708_210350.953/LogFile.txt","","",10
+2019-07-09 08:19:43 -0500,"Aborted",0:02:30,1,0,0,"20190709_131943.334/LogFile.txt","","",10
+2019-07-09 08:23:37 -0500,"Aborted",0:00:43,1,0,1,"20190709_132337.213/LogFile.txt","","",0
+2019-07-09 08:24:34 -0500,"Aborted",0:03:50,1,0,0,"20190709_132434.005/LogFile.txt","","",10

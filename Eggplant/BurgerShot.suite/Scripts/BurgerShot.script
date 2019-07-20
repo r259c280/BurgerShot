@@ -1,0 +1,173 @@
+﻿//++++++++++++++++++++++++++++++++++++++
+//++++INFO++++
+(*
+
+//Requirements:
+Purpose: To play the burger shot game autonomously
+
+Scenario: 
+
+
+//Github: 
+
+
+*)
+//++++++++++++++++++++++++++++++++++++++
+//++++SET UP++++
+set setupData to "Util/Json".initializeResourceData(JSONValue(file ResourcePath("SetupData.json")))
+log "SetupData:" && setupData
+set application to setupData.applicationRyan
+
+set the remoteWorkInterval to setupData.remoteWorkInterval
+set the scriptlogging to setupData.scriptlogging
+set global waitTime to setupData.waitTime
+
+try
+	
+	
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//++++++++++++++++++Open Burger Shot++++++++++++++++++++
+	set scenario to "Open Burger Shot"
+	BeginTestCase scenario
+	
+	//++++++++++++++++++++++++++++++++++++++
+	//++++ACTION++++ Open Eclipse and navigate to Burgershot game and open it
+	run "Setup/Task".open application
+	//run "Setup/Task".openAlt 
+	log "Starting up BurgerShot"
+	wait 10
+	run "Setup/Task".startBurgerShot
+	
+	//++++++++++++++++++++++++++++++++++++++
+	//++++VERIFICATION++++
+	run "Util/Verify".saveScreenshot scenario
+	
+	EndTestCase scenario
+	
+	//+++++++++++++++++++Open BurgerShot+++++++++++++++++++++++++++++++
+	//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	
+	
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//++++++++++++++++++Main Menu BurgerShot++++++++++++++++++++++++++++
+	set scenario to "Main Frame"
+	BeginTestCase scenario
+	
+	//++++++++++++++++++++++++++++++++++++++
+	//++++VERIFICATION++++
+	set rectangle to "Setup/Task".FrameSearchRectangle()
+	wait 5
+	log "Verifying the Mcdonalds Icon is visible in the top left corner"
+	run "Util/Verify".imageIsVisible "Icon_Mcdonalds",rectangle
+	run "Util/Verify".imageIsVisible "Banner_BurgerShot", rectangle
+	
+	log "Verifying Ronald Mcdonald is visible up in the middle of the menu"
+	run "Util/Verify".imageIsVisible "MainFrame/Icon_RonMcdon",rectangle
+	
+	log "Verifying the 3 text icons are visible (Play, Instructions, and Exit)"
+	run "Util/Verify".imageIsVisible "MainFrame/Text_Play",rectangle
+	run "Util/Verify".imageIsVisible "MainFrame/Text_Instructions",rectangle
+	run "Util/Verify".imageIsVisible "MainFrame/Text_Exit",rectangle
+	
+	run "Util/Verify".saveScreenshot scenario
+	EndTestCase scenario
+	//+++++++++++++++++++Main Menu BurgerShot+++++++++++++++++++++++++++
+	//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	
+	
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//++++++++++++++++++Instruction Menu BurgerShot++++++++++++++++++++++++
+	set scenario to "Instruction Frame"
+	BeginTestCase scenario
+	
+	//++++++++++++++++++++++++++++++++++++++
+	//++++ACTION++++ Open the Instruction Frame and validate the instructions
+	set rectangle to "Setup/Task".FrameSearchRectangle()
+	wait 3
+	log "Navigating to instructions"
+	click "MainFrame/Text_Instructions"
+	
+	log "Verifying Ronald Mcdonald is visible up in the middle of the menu"
+	run "Util/Verify".imageIsVisible "Icon_Mcdonalds",rectangle
+	run "Util/Verify".imageIsVisible "Banner_BurgerShot", rectangle
+	run "Util/Verify".imageIsVisible "InstructionFrame/Text_InstructionInfo",rectangle
+	run "Util/Verify".imageIsVisible "InstructionFrame/Text_EnterToContinue",rectangle
+	
+	run "Util/Verify".saveScreenshot scenario
+	typeText returnKey
+	
+	run "Util/Verify".saveScreenshot scenario & "returned to menu frame"
+	EndTestCase scenario
+	//+++++++++++++++++++Main Menu BurgerShot+++++++++++++++++++++++++++
+	//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//++++++++++++++++++Play BurgerShot++++++++++++++++++++++++++++++++
+	set scenario to "Game Panel"
+	BeginTestCase scenario
+	//++++++++++++++++++++++++++++++++++++++
+	//++++ACTION++++ Open the Game Panel and soak the burgers in KETCHUP!!!!
+	click "MainFrame/Text_Play"
+	Log "Finding the burger"
+	set tempRemoteWorkInterval to the remoteWorkInterval 
+	set the remoteWorkInterval to "0.1"
+	set rectangle to "Setup/Task".MiddleMiddleSearchRectangle()
+	//set rectangle to "Setup/Task".MiddleLeftSearchRectangle()
+	//set rectangle to "Setup/Task".FrameSearchRectangle()
+	repeat for 30 times
+		repeat until  imageFound(image:"GamePanel/Burger", SearchRectangle:rectangle)
+		end repeat
+		
+		//Repeat 30 times
+		//click FoundImageLocation()
+		//end repeat
+		click FoundImageLocation()
+	end repeat
+	
+	set the remoteWorkInterval to tempRemoteWorkInterval
+	
+	run "Util/Verify".saveScreenshot scenario & "returned to menu frame"
+	EndTestCase scenario
+	//+++++++++++++++++++Play BurgerShot+++++++++++++++++++++++++++++++
+	//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	
+	
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//++++++++++++++++++Exit BurgerShot++++++++++++++++++++++++++++++++
+	set scenario to "Exit Game"
+	BeginTestCase scenario
+	wait 10
+	if imageFound(image:"GamePanel/EndGame")
+		log "Returning the the Main Menu"
+		typetext returnKey
+	end if
+	log "exiting the game"
+	click "MainFrame/Text_Exit"
+	
+	run "Util/Verify".saveScreenshot scenario 
+	EndTestCase scenario
+	//+++++++++++++++++++Exit BurgerShot+++++++++++++++++++++++++++++++
+	//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
+catch exception
+	LogError "Exception encountered" && exception.reason
+	run "Util/Verify".saveScreenshot "Exception"
+end try
+
+//++++++++++++++++++++++++++++++++++++++
+//++++++TEARDOWN+++++
+typeText AltKey,F4

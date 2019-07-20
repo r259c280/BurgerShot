@@ -1,0 +1,65 @@
+{
+	"entries": [
+		{
+				"message": "Running BurgerShot.script",
+				"identifier": "START",
+				"timestamp": "2019-07-08 20:42:20.909 +0000"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:42:21.310 +0000",
+				"message": "SetupData: (applcationRyan:@\"C:\\\\Users\\\\Ryan\\\\eclipsejava-photon\\\\eclipse\\\\eclipse.exe\", application:@\"C:\\\\Users\\\\rc050176\\\\eclipse\\\\java-2019-06\\\\eclipse\\\\eclipse.exe\", game:\"Burger Shot\", remoteWorkInterval:\"1.5\", scriptlogging:\"off\", waitTime:\"5\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 18,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:42:21.330 +0000",
+				"message": "REMOTEWORKINTERVAL = 1.5",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 21,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:42:21.334 +0000",
+				"message": "Open Burger Shot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 32,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"handlerName": "on_open",
+				"timestamp": "2019-07-08 20:42:21.389 +0000",
+				"message": "Login to: Eclipse",
+				"scriptName": "Setup/Task.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:42:35.935 +0000",
+				"message": "Starting up BurgerShot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 37,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"18.449\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2019-07-08 15:42:21 -0500\", Successes:\"0\", TestCase:\"Open Burger Shot\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-08 20:42:39.784 +0000"
+			},
+		{
+				"message": "(Duration:\"18.872\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2019-07-08 15:42:20 -0500\", Successes:\"0\", TestCase:\"BurgerShot.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-08 20:42:39.788 +0000"
+			},
+		{
+				"message": "Execution Time 0:00:18 BurgerShot.script",
+				"identifier": "ABORTED",
+				"timestamp": "2019-07-08 20:42:39.807 +0000"
+			}
+	],
+	"createdTimestamp": "2019-07-08 20:42:20.914 +0000"
+}

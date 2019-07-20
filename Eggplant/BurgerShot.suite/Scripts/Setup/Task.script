@@ -1,0 +1,61 @@
+﻿(** Open Eclipse
+@Param application the application to start up
+@Handler
+     run "Setup/Task".open application
+ **)
+on open application
+	log "Login to: Eclipse"
+	TypeText windowsKey & "r"
+	Wait 1
+	TypeText application, returnKey
+	wait 13
+end open
+
+(** Open Eclipse
+@Param application the application to start up
+@Handler
+     run "Setup/Task".openAlt 
+ **)
+on openAlt 
+	log "Login to: Eclipse"
+	click "Icon_Eclipse"
+	wait 13
+end openAlt
+
+(** Open BurgerShot
+@Param application the application to start up
+@Handler
+     run "Setup/Task".startBurgerShot
+ **)
+on startBurgerShot 
+	click "Eclipse/Text_BurgerShot"
+	//click "Eclipse/Text_BurgerShotRyan"
+	click "Eclipse/Icon_Run"
+end startBurgerShot
+
+(** Return the search rectangle that contains the frame parameters
+@Return the coordinates of a search rectangle
+@Handler
+     "Setup/Task".MainFrameSearchRectangle()
+**)
+function FrameSearchRectangle
+	return  (imageLocation("TL_SR_BurgerShot"), imageLocation("BR_SR_BurgerShot"))
+end FrameSearchRectangle
+
+(** Return the search rectangle that contains the middleleft quadrant coordinates
+@Return the coordinates of a search rectangle
+@Handler
+     "Setup/Task".MiddleLeftSearchRectangle()
+**)
+function MiddleLeftSearchRectangle
+	return  (imageLocation("GamePanel/TL_SR_MiddleMiddle"), imageLocation("GamePanel/BR_SR_RightRight"))
+end MiddleLeftSearchRectangle
+
+(** Return the search rectangle that contains the middleleft quadrant coordinates
+@Return the coordinates of a search rectangle
+@Handler
+     "Setup/Task".MiddleMiddleSearchRectangle()
+**)
+function MiddleMiddleSearchRectangle
+	return  (imageLocation("GamePanel/TL_SR_MiddleMiddle"), imageLocation("GamePanel/BR_SR_MiddleMiddle"))
+end MiddleMiddleSearchRectangle

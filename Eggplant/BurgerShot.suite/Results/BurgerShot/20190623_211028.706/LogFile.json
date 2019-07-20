@@ -1,0 +1,21 @@
+{
+	"entries": [
+		{
+				"message": "Running BurgerShot.script",
+				"identifier": "START",
+				"timestamp": "2019-06-23 21:10:28.714 -0500"
+			},
+		{
+				"message": "(Duration:\"0.643\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2019-06-23 21:10:28 -0500\", Successes:\"0\", TestCase:\"BurgerShot.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-06-23 21:10:29.362 -0500"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "STUnknownMessage ERROR: No Such Function: 'initializeresourcedata' -- Execution Time 0:00:01 BurgerShot.script",
+				"identifier": "FAILURE",
+				"timestamp": "2019-06-23 21:10:29.584 -0500"
+			}
+	],
+	"createdTimestamp": "2019-06-24 02:10:28.717 +0000"
+}

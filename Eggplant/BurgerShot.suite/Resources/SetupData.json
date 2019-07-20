@@ -1,0 +1,10 @@
+ {
+ "DEFAULT":{
+	"application":"C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe",
+	"applcationRyan":"C:\\Users\\Ryan\\eclipse\java-photon\\eclipse\\eclipse.exe",
+	"game":"Burger Shot",
+	"remoteWorkInterval":1.5,
+	"waitTime":5,
+	"scriptlogging":"off",
+	}
+}

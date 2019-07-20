@@ -1,0 +1,57 @@
+{
+	"entries": [
+		{
+				"message": "Running BurgerShot.script",
+				"identifier": "START",
+				"timestamp": "2019-07-08 20:40:07.165 +0000"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:40:07.563 +0000",
+				"message": "SetupData: (applcationRyan:@\"C:\\\\Users\\\\Ryan\\\\eclipsejava-photon\\\\eclipse\\\\eclipse.exe\", application:@\"C:\\\\Users\\\\rc050176\\\\eclipse\\\\java-2019-06\\\\eclipse\\\\eclipse.exe\", game:\"Burger Shot\", remoteWorkInterval:\"1.5\", scriptlogging:\"off\", waitTime:\"5\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 18,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:40:07.583 +0000",
+				"message": "REMOTEWORKINTERVAL = 1.5",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 21,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:40:07.585 +0000",
+				"message": "Open Burger Shot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 32,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"handlerName": "on_open",
+				"timestamp": "2019-07-08 20:40:07.599 +0000",
+				"message": "Login to: Eclipse",
+				"scriptName": "Setup/Task.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"9.84\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2019-07-08 15:40:07 -0500\", Successes:\"0\", TestCase:\"Open Burger Shot\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-08 20:40:17.426 +0000"
+			},
+		{
+				"message": "(Duration:\"10.268\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2019-07-08 15:40:07 -0500\", Successes:\"0\", TestCase:\"BurgerShot.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-08 20:40:17.438 +0000"
+			},
+		{
+				"message": "Execution Time 0:00:10 BurgerShot.script",
+				"identifier": "ABORTED",
+				"timestamp": "2019-07-08 20:40:17.451 +0000"
+			}
+	],
+	"createdTimestamp": "2019-07-08 20:40:07.168 +0000"
+}

@@ -1,0 +1,11 @@
+﻿2019-07-08 20:40:50.317 +0000	START		Running BurgerShot.script
+2019-07-08 20:40:50.731 +0000	Log		SetupData: (applcationRyan:@"C:\\Users\\Ryan\\eclipsejava-photon\\eclipse\\eclipse.exe", application:@"C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe", game:"Burger Shot", remoteWorkInterval:"1.5", scriptlogging:"off", waitTime:"5")	18	on_burgershot	BurgerShot.script
+2019-07-08 20:40:50.749 +0000	set		REMOTEWORKINTERVAL = 1.5	21	on_burgershot	BurgerShot.script
+2019-07-08 20:40:50.751 +0000	BeginTestCase		Open Burger Shot	32	on_burgershot	BurgerShot.script
+2019-07-08 20:40:50.769 +0000	Log		Login to: Eclipse	2	on_open	Setup/Task.script
+2019-07-08 20:41:13.170 +0000	Log		Starting up BurgerShot	37	on_burgershot	BurgerShot.script
+2019-07-08 20:42:00.526 +0000	LogError		Exception encountered click Error - No Image Found On Screen: "Eclipse/Text_BurgerShotRyan"	166	on_burgershot	BurgerShot.script
+2019-07-08 20:42:00.589 +0000	Log		Saving Screenshot: 765720-Exception	3	on_savescreenshot	Util/Verify.script
+2019-07-08 20:42:02.286 +0000	EndTestCase		(Duration:"71.533", Errors:"1", Exceptions:"1", StartTime:"2019-07-08 15:40:50 -0500", Successes:"0", TestCase:"Open Burger Shot", Warnings:"0")
+2019-07-08 20:42:02.289 +0000	EndTestCase		(Duration:"71.967", Errors:"1", Exceptions:"1", StartTime:"2019-07-08 15:40:50 -0500", Successes:"0", TestCase:"BurgerShot.script", Warnings:"0")
+2019-07-08 20:42:02.442 +0000	FAILURE	Screen_Error.png	Script Error Number of Errors logged: 1 -- Execution Time 0:01:11 BurgerShot.script

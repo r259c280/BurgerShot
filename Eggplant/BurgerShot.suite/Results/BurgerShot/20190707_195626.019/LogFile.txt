@@ -1,0 +1,8 @@
+﻿2019-07-07 19:56:26.019 +0000	START		Running BurgerShot.script
+2019-07-07 19:56:26.336 +0000	Log		SetupData: (application:@"C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe", remoteWorkInterval:"1.5", scriptlogging:"off", waitTime:"5")	18	on_burgershot	BurgerShot.script
+2019-07-07 19:56:26.336 +0000	set		REMOTEWORKINTERVAL = 1.5	20	on_burgershot	BurgerShot.script
+2019-07-07 19:56:26.336 +0000	BeginTestCase		Open Burger Shot	35	on_burgershot	BurgerShot.script
+2019-07-07 19:56:26.350 +0000	Log		Login to: Eclipse	2	on_open	Setup/Task.script
+2019-07-07 19:57:16.754 +0000	EndTestCase		(Duration:"50.418", Errors:"1", Exceptions:"0", StartTime:"2019-07-07 14:56:26 -0500", Successes:"0", TestCase:"Open Burger Shot", Warnings:"0")
+2019-07-07 19:57:16.754 +0000	EndTestCase		(Duration:"50.719", Errors:"1", Exceptions:"0", StartTime:"2019-07-07 14:56:26 -0500", Successes:"0", TestCase:"BurgerShot.script", Warnings:"0")
+2019-07-07 19:57:16.770 +0000	ABORTED		Execution Time 0:00:50 BurgerShot.script

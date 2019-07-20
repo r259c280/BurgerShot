@@ -1,0 +1,61 @@
+{
+	"entries": [
+		{
+				"message": "Running BurgerShot.script",
+				"identifier": "START",
+				"timestamp": "2019-06-23 21:14:40.132 -0500"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-06-23 21:14:40.712 -0500",
+				"message": "SetupData: (application:@\"C:\\0sers\\rc050176eclipsejava-2019-06eclipseeclipse.exe\", remoteWorkInterval:\"1.5\", scriptlogging:\"off\", waitTime:\"5\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 18,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-06-23 21:14:40.768 -0500",
+				"message": "REMOTEWORKINTERVAL = 1.5",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 20,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-06-23 21:14:40.983 -0500",
+				"message": "Exception encountered at: line 34 of burgershot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 54,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-06-23 21:14:41.033 -0500",
+				"message": "Exception reason: Bad value for Object expression.  Looking for an object or script identifier, got 'Setup/Task'.",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 55,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_savescreenshot",
+				"timestamp": "2019-06-23 21:14:41.159 -0500",
+				"message": "Saving Screenshot: 2063681-Exception",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"message": "(Duration:\"4.703\", Errors:\"2\", Exceptions:\"0\", StartTime:\"2019-06-23 21:14:40 -0500\", Successes:\"0\", TestCase:\"BurgerShot.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-06-23 21:14:44.841 -0500"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Script Error Number of Errors logged: 2 -- Execution Time 0:00:04 BurgerShot.script",
+				"identifier": "FAILURE",
+				"timestamp": "2019-06-23 21:14:45.031 -0500"
+			}
+	],
+	"createdTimestamp": "2019-06-24 02:14:40.135 +0000"
+}

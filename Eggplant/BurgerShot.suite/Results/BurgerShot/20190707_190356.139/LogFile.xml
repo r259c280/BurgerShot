@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="BurgerShot_script" package="BurgerShot.suite" timestamp="2019-07-07 14:03:56 -0500"
+ tests="2"  failures="3" errors="0" time="12.210000">
+  <properties>
+   <property name="RunDate" value="2019-07-07 14:03:56 -0500"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Open Burger Shot" assertions="2" status="error"  time="11.957">
+    <failure type="LogError" message="Exception encountered at: line 2 of startburgershot\ncalled from line 40 of burgershot" />
+    <failure type="LogError" message="Exception reason: click Error - Could Not Open Image: Text_BurgerShot" />
+  </testcase>
+  <testcase name="BurgerShot.script" assertions="2" status="error"  time="12.21">
+    <failure type="LogError" message="Exception encountered at: line 2 of startburgershot\ncalled from line 40 of burgershot" />
+    <failure type="LogError" message="Exception reason: click Error - Could Not Open Image: Text_BurgerShot" />
+    <failure type="FAILURE" message="Script Error Number of Errors logged: 2 -- Execution Time 0:00:12 BurgerShot.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

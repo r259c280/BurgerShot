@@ -1,0 +1,24 @@
+﻿(** Capture a screenshot appending a timestamp to the begining of the screenshot name
+@Param name the name of the screenshot 
+@Handler
+	run "Util/Verify".saveScreenshot name
+**)
+on saveScreenshot name
+	set screenshotName to (date.day * 86400 + time.hour * 3600 + time.minute * 60 + time.second) & "-" & name
+	log "Saving Screenshot:" && screenshotName
+	captureScreen screenshotName
+end saveScreenshot
+
+(** Verify if the given rectangle contains the given image
+@Param image the name of the image to search for
+@Param rectangle  the area to search for the image in
+@Handler
+	run "Util/Verify".imageIsVisible image, rectangle
+**)
+on imageIsVisible image, rectangle
+	if imageFound(image:image, SearchRectangle: rectangle, waitFor:10)
+		LogSuccess "Found the image:" && image
+	else
+		LogError "Could Not find:" && image
+	end if
+end imageIsVisible

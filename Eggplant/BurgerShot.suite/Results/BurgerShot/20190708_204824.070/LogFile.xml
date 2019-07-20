@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="BurgerShot_script" package="BurgerShot.suite" timestamp="2019-07-08 15:48:24 -0500"
+ tests="3"  failures="1" errors="0" time="51.260000">
+  <properties>
+   <property name="RunDate" value="2019-07-08 15:48:24 -0500"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Open Burger Shot" assertions="0" status="success"  time="25.274">
+  </testcase>
+  <testcase name="Main Frame" assertions="2" status="failure"  time="25.61">
+    <failure type="LogError" message="Could Not find: Icon_Mcdonalds" />
+  </testcase>
+  <testcase name="BurgerShot.script" assertions="2" status="failure"  time="51.254">
+    <failure type="LogError" message="Could Not find: Icon_Mcdonalds" />
+  </testcase>
+ </testsuite>
+</testsuites>

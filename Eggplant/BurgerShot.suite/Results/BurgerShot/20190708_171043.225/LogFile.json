@@ -1,0 +1,81 @@
+{
+	"entries": [
+		{
+				"message": "Running BurgerShot.script",
+				"identifier": "START",
+				"timestamp": "2019-07-08 17:10:43.231 +0000"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 17:10:43.560 +0000",
+				"message": "SetupData: (applcationRyan:@\"C:\\\\Users\\\\Ryan\\\\eclipsejava-photon\\\\eclipse\\\\eclipse.exe\", application:@\"C:\\\\Users\\\\rc050176\\\\eclipse\\\\java-2019-06\\\\eclipse\\\\eclipse.exe\", game:\"Burger Shot\", remoteWorkInterval:\"1.5\", scriptlogging:\"off\", waitTime:\"5\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 18,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 17:10:43.579 +0000",
+				"message": "REMOTEWORKINTERVAL = 1.5",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 21,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 17:10:43.582 +0000",
+				"message": "Open Burger Shot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 30,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 17:10:43.585 +0000",
+				"message": "Starting up BurgerShot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 35,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_savescreenshot",
+				"timestamp": "2019-07-08 17:10:43.619 +0000",
+				"message": "Saving Screenshot: 753043-Open Burger Shot",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 17:10:43.835 +0000",
+				"message": "(Duration:\"0.252\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2019-07-08 12:10:43 -0500\", Successes:\"0\", TestCase:\"Open Burger Shot\", Warnings:\"0\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 43,
+				"identifier": "EndTestCase"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 17:10:43.839 +0000",
+				"message": "Game Panel",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 114,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"message": "(Duration:\"12.49\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2019-07-08 12:10:43 -0500\", Successes:\"0\", TestCase:\"Game Panel\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-08 17:10:56.330 +0000"
+			},
+		{
+				"message": "(Duration:\"13.096\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2019-07-08 12:10:43 -0500\", Successes:\"0\", TestCase:\"BurgerShot.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-08 17:10:56.333 +0000"
+			},
+		{
+				"message": "Execution Time 0:00:13 BurgerShot.script",
+				"identifier": "ABORTED",
+				"timestamp": "2019-07-08 17:10:56.350 +0000"
+			}
+	],
+	"createdTimestamp": "2019-07-08 17:10:43.235 +0000"
+}

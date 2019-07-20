@@ -1,0 +1,17 @@
+﻿2019-07-07 20:16:45.319 +0000	START		Running BurgerShot.script
+2019-07-07 20:16:45.582 +0000	Log		SetupData: (application:@"C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe", game:"Burger Shot", remoteWorkInterval:"1.5", scriptlogging:"off", waitTime:"5")	18	on_burgershot	BurgerShot.script
+2019-07-07 20:16:45.582 +0000	set		REMOTEWORKINTERVAL = 1.5	22	on_burgershot	BurgerShot.script
+2019-07-07 20:16:45.582 +0000	BeginTestCase		Open Burger Shot	37	on_burgershot	BurgerShot.script
+2019-07-07 20:16:45.598 +0000	Log		Login to: Eclipse	2	on_open	Setup/Task.script
+2019-07-07 20:16:59.126 +0000	Log		Starting up BurgerShot	42	on_burgershot	BurgerShot.script
+2019-07-07 20:17:09.352 +0000	Log		Saving Screenshot: 677829-Open Burger Shot	3	on_savescreenshot	Util/Verify.script
+2019-07-07 20:17:09.490 +0000	EndTestCase		(Duration:"23.908", Errors:"0", Exceptions:"0", StartTime:"2019-07-07 15:16:45 -0500", Successes:"0", TestCase:"Open Burger Shot", Warnings:"0")	49	on_burgershot	BurgerShot.script
+2019-07-07 20:17:09.506 +0000	BeginTestCase		Main Frame	61	on_burgershot	BurgerShot.script
+2019-07-07 20:17:11.935 +0000	Log		Verifying the Mcdonalds Icon is visible in the top left corner	66	on_burgershot	BurgerShot.script
+2019-07-07 20:17:11.947 +0000	LogSuccess		Found the image: Icon_Mcdonalds	3	on_imageisvisible	Util/Verify.script
+2019-07-07 20:17:11.994 +0000	LogError		Exception encountered at: line 68 of burgershot	124	on_burgershot	BurgerShot.script
+2019-07-07 20:17:12.014 +0000	LogError		Exception reason: ERROR: No Such Command: 'textisvisible'	125	on_burgershot	BurgerShot.script
+2019-07-07 20:17:12.060 +0000	Log		Saving Screenshot: 677832-Exception	3	on_savescreenshot	Util/Verify.script
+2019-07-07 20:17:12.345 +0000	EndTestCase		(Duration:"2.839", Errors:"2", Exceptions:"0", StartTime:"2019-07-07 15:17:09 -0500", Successes:"1", TestCase:"Main Frame", Warnings:"0")
+2019-07-07 20:17:12.345 +0000	EndTestCase		(Duration:"27.01", Errors:"2", Exceptions:"0", StartTime:"2019-07-07 15:16:45 -0500", Successes:"1", TestCase:"BurgerShot.script", Warnings:"0")
+2019-07-07 20:17:12.514 +0000	FAILURE	Screen_Error.png	Script Error Number of Errors logged: 2 -- Execution Time 0:00:27 BurgerShot.script

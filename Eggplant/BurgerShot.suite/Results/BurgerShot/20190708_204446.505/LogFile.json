@@ -1,0 +1,105 @@
+{
+	"entries": [
+		{
+				"message": "Running BurgerShot.script",
+				"identifier": "START",
+				"timestamp": "2019-07-08 20:44:46.512 +0000"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:44:46.964 +0000",
+				"message": "SetupData: (applcationRyan:@\"C:\\\\Users\\\\Ryan\\\\eclipsejava-photon\\\\eclipse\\\\eclipse.exe\", application:@\"C:\\\\Users\\\\rc050176\\\\eclipse\\\\java-2019-06\\\\eclipse\\\\eclipse.exe\", game:\"Burger Shot\", remoteWorkInterval:\"1.5\", scriptlogging:\"off\", waitTime:\"5\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 18,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:44:46.981 +0000",
+				"message": "REMOTEWORKINTERVAL = 1.5",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 21,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:44:46.984 +0000",
+				"message": "Open Burger Shot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 32,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"handlerName": "on_openalt",
+				"timestamp": "2019-07-08 20:44:46.997 +0000",
+				"message": "Login to: Eclipse",
+				"scriptName": "Setup/Task.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:45:00.240 +0000",
+				"message": "Starting up BurgerShot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 38,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_savescreenshot",
+				"timestamp": "2019-07-08 20:45:22.438 +0000",
+				"message": "Saving Screenshot: 765922-Open Burger Shot",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:45:22.597 +0000",
+				"message": "(Duration:\"35.611\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2019-07-08 15:44:46 -0500\", Successes:\"0\", TestCase:\"Open Burger Shot\", Warnings:\"0\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 46,
+				"identifier": "EndTestCase"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:45:22.600 +0000",
+				"message": "Main Frame",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 58,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-08 20:47:33.063 +0000",
+				"message": "Verifying the Mcdonalds Icon is visible in the top left corner",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 64,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_imageisvisible",
+				"timestamp": "2019-07-08 20:47:43.093 +0000",
+				"message": "Could Not find: Icon_Mcdonalds",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 5,
+				"identifier": "LogError"
+			},
+		{
+				"message": "(Duration:\"142.799\", Errors:\"2\", Exceptions:\"0\", StartTime:\"2019-07-08 15:45:22 -0500\", Successes:\"0\", TestCase:\"Main Frame\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-08 20:47:45.400 +0000"
+			},
+		{
+				"message": "(Duration:\"178.886\", Errors:\"2\", Exceptions:\"0\", StartTime:\"2019-07-08 15:44:46 -0500\", Successes:\"0\", TestCase:\"BurgerShot.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-08 20:47:45.403 +0000"
+			},
+		{
+				"message": "Execution Time 0:02:58 BurgerShot.script",
+				"identifier": "ABORTED",
+				"timestamp": "2019-07-08 20:47:45.424 +0000"
+			}
+	],
+	"createdTimestamp": "2019-07-08 20:44:46.514 +0000"
+}

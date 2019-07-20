@@ -1,0 +1,297 @@
+{
+	"entries": [
+		{
+				"message": "Running BurgerShot.script",
+				"identifier": "START",
+				"timestamp": "2019-07-07 22:50:59.862 +0000"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:00.229 +0000",
+				"message": "SetupData: (application:@\"C:\\\\Users\\\\rc050176\\\\eclipse\\\\java-2019-06\\\\eclipse\\\\eclipse.exe\", game:\"Burger Shot\", remoteWorkInterval:\"1.5\", scriptlogging:\"off\", waitTime:\"5\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 18,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:00.231 +0000",
+				"message": "REMOTEWORKINTERVAL = 1.5",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 21,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:00.235 +0000",
+				"message": "Open Burger Shot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 30,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"handlerName": "on_open",
+				"timestamp": "2019-07-07 22:51:00.244 +0000",
+				"message": "Login to: Eclipse",
+				"scriptName": "Setup/Task.script",
+				"handlerLine": 2,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:16.830 +0000",
+				"message": "Starting up BurgerShot",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 35,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_savescreenshot",
+				"timestamp": "2019-07-07 22:51:28.645 +0000",
+				"message": "Saving Screenshot: 687088-Open Burger Shot",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:28.792 +0000",
+				"message": "(Duration:\"28.558\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2019-07-07 17:51:00 -0500\", Successes:\"0\", TestCase:\"Open Burger Shot\", Warnings:\"0\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 43,
+				"identifier": "EndTestCase"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:28.792 +0000",
+				"message": "Main Frame",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 55,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:36.129 +0000",
+				"message": "Verifying the Mcdonalds Icon is visible in the top left corner",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 61,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_imageisvisible",
+				"timestamp": "2019-07-07 22:51:36.152 +0000",
+				"message": "Found the image: Icon_Mcdonalds",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_imageisvisible",
+				"timestamp": "2019-07-07 22:51:36.268 +0000",
+				"message": "Found the image: Banner_BurgerShot",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:36.330 +0000",
+				"message": "Verifying Ronald Mcdonald is visible up in the middle of the menu",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 65,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_imageisvisible",
+				"timestamp": "2019-07-07 22:51:36.453 +0000",
+				"message": "Found the image: MainFrame/Icon_RonMcdon",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:36.514 +0000",
+				"message": "Verifying the 3 text icons are visible (Play, Instructions, and Exit)",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 68,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_imageisvisible",
+				"timestamp": "2019-07-07 22:51:36.631 +0000",
+				"message": "Found the image: MainFrame/Text_Play",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_imageisvisible",
+				"timestamp": "2019-07-07 22:51:36.770 +0000",
+				"message": "Found the image: MainFrame/Text_Instructions",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_imageisvisible",
+				"timestamp": "2019-07-07 22:51:36.954 +0000",
+				"message": "Found the image: MainFrame/Text_Exit",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_savescreenshot",
+				"timestamp": "2019-07-07 22:51:37.155 +0000",
+				"message": "Saving Screenshot: 687097-Main Frame",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:37.302 +0000",
+				"message": "(Duration:\"8.51\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2019-07-07 17:51:28 -0500\", Successes:\"6\", TestCase:\"Main Frame\", Warnings:\"0\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 74,
+				"identifier": "EndTestCase"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:37.302 +0000",
+				"message": "Instruction Frame",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 85,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:40.604 +0000",
+				"message": "Navigating to instructions",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 91,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:40.804 +0000",
+				"message": "Verifying Ronald Mcdonald is visible up in the middle of the menu",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 94,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_imageisvisible",
+				"timestamp": "2019-07-07 22:51:40.820 +0000",
+				"message": "Found the image: Icon_Mcdonalds",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_imageisvisible",
+				"timestamp": "2019-07-07 22:51:40.951 +0000",
+				"message": "Found the image: Banner_BurgerShot",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_imageisvisible",
+				"timestamp": "2019-07-07 22:51:41.184 +0000",
+				"message": "Found the image: InstructionFrame/Text_InstructionInfo",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_imageisvisible",
+				"timestamp": "2019-07-07 22:51:41.387 +0000",
+				"message": "Found the image: InstructionFrame/Text_EnterToContinue",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_savescreenshot",
+				"timestamp": "2019-07-07 22:51:41.543 +0000",
+				"message": "Saving Screenshot: 687101-Instruction Frame",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_savescreenshot",
+				"timestamp": "2019-07-07 22:51:42.368 +0000",
+				"message": "Saving Screenshot: 687102-Instruction Framereturned to menu frame",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:42.530 +0000",
+				"message": "(Duration:\"5.228\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2019-07-07 17:51:37 -0500\", Successes:\"4\", TestCase:\"Instruction Frame\", Warnings:\"0\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 104,
+				"identifier": "EndTestCase"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:42.530 +0000",
+				"message": "Game Panel",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 114,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:51:44.034 +0000",
+				"message": "Finding the burger",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 118,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_savescreenshot",
+				"timestamp": "2019-07-07 22:52:15.891 +0000",
+				"message": "Saving Screenshot: 687135-Game Panelreturned to menu frame",
+				"scriptName": "Util/Verify.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:52:16.117 +0000",
+				"message": "(Duration:\"33.587\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2019-07-07 17:51:42 -0500\", Successes:\"0\", TestCase:\"Game Panel\", Warnings:\"0\")",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 140,
+				"identifier": "EndTestCase"
+			},
+		{
+				"handlerName": "on_burgershot",
+				"timestamp": "2019-07-07 22:52:16.119 +0000",
+				"message": "Game Panel",
+				"scriptName": "BurgerShot.script",
+				"handlerLine": 151,
+				"identifier": "BeginTestCase"
+			},
+		{
+				"message": "(Duration:\"11.516\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2019-07-07 17:52:16 -0500\", Successes:\"0\", TestCase:\"Game Panel\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-07 22:52:27.635 +0000"
+			},
+		{
+				"message": "(Duration:\"87.773\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2019-07-07 17:50:59 -0500\", Successes:\"10\", TestCase:\"BurgerShot.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-07-07 22:52:27.635 +0000"
+			},
+		{
+				"message": "Execution Time 0:01:27 BurgerShot.script",
+				"identifier": "ABORTED",
+				"timestamp": "2019-07-07 22:52:27.697 +0000"
+			}
+	],
+	"createdTimestamp": "2019-07-07 22:50:59.862 +0000"
+}

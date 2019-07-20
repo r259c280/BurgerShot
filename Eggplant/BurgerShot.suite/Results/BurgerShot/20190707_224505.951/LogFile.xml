@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="BurgerShot_script" package="BurgerShot.suite" timestamp="2019-07-07 17:45:05 -0500"
+ tests="5"  failures="0" errors="0" time="124.770000">
+  <properties>
+   <property name="RunDate" value="2019-07-07 17:45:05 -0500"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Open Burger Shot" assertions="0" status="success"  time="28.268">
+  </testcase>
+  <testcase name="Main Frame" assertions="6" status="success"  time="8.503">
+  </testcase>
+  <testcase name="Instruction Frame" assertions="4" status="success"  time="5.332">
+  </testcase>
+  <testcase name="Game Panel" assertions="1" status="failure"  time="82.327">
+    <failure type="FAILURE" message="See main script" />
+  </testcase>
+  <testcase name="BurgerShot.script" assertions="11" status="failure"  time="124.755">
+    <failure type="FAILURE" message="See main script" />
+  </testcase>
+ </testsuite>
+</testsuites>

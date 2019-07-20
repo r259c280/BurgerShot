@@ -1,0 +1,8 @@
+﻿2019-06-23 21:14:40.132 -0500	START		Running BurgerShot.script
+2019-06-23 21:14:40.712 -0500	Log		SetupData: (application:@"C:\0sers\rc050176eclipsejava-2019-06eclipseeclipse.exe", remoteWorkInterval:"1.5", scriptlogging:"off", waitTime:"5")	18	on_burgershot	BurgerShot.script
+2019-06-23 21:14:40.768 -0500	set		REMOTEWORKINTERVAL = 1.5	20	on_burgershot	BurgerShot.script
+2019-06-23 21:14:40.983 -0500	LogError		Exception encountered at: line 34 of burgershot	54	on_burgershot	BurgerShot.script
+2019-06-23 21:14:41.033 -0500	LogError		Exception reason: Bad value for Object expression.  Looking for an object or script identifier, got 'Setup/Task'.	55	on_burgershot	BurgerShot.script
+2019-06-23 21:14:41.159 -0500	Log		Saving Screenshot: 2063681-Exception	3	on_savescreenshot	Util/Verify.script
+2019-06-23 21:14:44.841 -0500	EndTestCase		(Duration:"4.703", Errors:"2", Exceptions:"0", StartTime:"2019-06-23 21:14:40 -0500", Successes:"0", TestCase:"BurgerShot.script", Warnings:"0")
+2019-06-23 21:14:45.031 -0500	FAILURE	Screen_Error.png	Script Error Number of Errors logged: 2 -- Execution Time 0:00:04 BurgerShot.script

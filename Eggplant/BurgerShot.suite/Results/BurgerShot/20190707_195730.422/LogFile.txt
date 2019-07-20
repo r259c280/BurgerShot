@@ -1,0 +1,18 @@
+﻿2019-07-07 19:57:30.429 +0000	START		Running BurgerShot.script
+2019-07-07 19:57:30.708 +0000	Log		SetupData: (application:@"C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe", remoteWorkInterval:"1.5", scriptlogging:"off", waitTime:"5")	18	on_burgershot	BurgerShot.script
+2019-07-07 19:57:30.708 +0000	set		REMOTEWORKINTERVAL = 1.5	20	on_burgershot	BurgerShot.script
+2019-07-07 19:57:30.708 +0000	BeginTestCase		Open Burger Shot	35	on_burgershot	BurgerShot.script
+2019-07-07 19:57:30.708 +0000	Log		Login to: Eclipse	2	on_open	Setup/Task.script
+2019-07-07 19:58:07.172 +0000	Log		Saving Screenshot: 676687-Open Burger Shot	3	on_savescreenshot	Util/Verify.script
+2019-07-07 19:58:07.295 +0000	EndTestCase		(Duration:"36.587", Errors:"0", Exceptions:"0", StartTime:"2019-07-07 14:57:30 -0500", Successes:"0", TestCase:"Open Burger Shot", Warnings:"0")	46	on_burgershot	BurgerShot.script
+2019-07-07 19:58:07.310 +0000	BeginTestCase		Main Frame	58	on_burgershot	BurgerShot.script
+2019-07-07 19:58:11.052 +0000	LogSuccess		Found the image: MainFrame/Icon_RonMcdon	3	on_imageisvisible	Util/Verify.script
+2019-07-07 19:58:11.237 +0000	LogSuccess		Found the image: MainFrame/Text_Play	3	on_imageisvisible	Util/Verify.script
+2019-07-07 19:58:11.383 +0000	LogSuccess		Found the image: MainFrame/Text_Instructions	3	on_imageisvisible	Util/Verify.script
+2019-07-07 19:58:11.538 +0000	LogSuccess		Found the image: MainFrame/Text_Exit	3	on_imageisvisible	Util/Verify.script
+2019-07-07 19:58:11.685 +0000	Log		Saving Screenshot: 676691-Main Frame	3	on_savescreenshot	Util/Verify.script
+2019-07-07 19:58:11.823 +0000	EndTestCase		(Duration:"4.513", Errors:"0", Exceptions:"0", StartTime:"2019-07-07 14:58:07 -0500", Successes:"4", TestCase:"Main Frame", Warnings:"0")	69	on_burgershot	BurgerShot.script
+2019-07-07 19:58:11.823 +0000	BeginTestCase		Instruction Frame	80	on_burgershot	BurgerShot.script
+2019-07-07 19:58:19.597 +0000	EndTestCase		(Duration:"7.773", Errors:"1", Exceptions:"0", StartTime:"2019-07-07 14:58:11 -0500", Successes:"0", TestCase:"Instruction Frame", Warnings:"0")
+2019-07-07 19:58:19.600 +0000	EndTestCase		(Duration:"49.17", Errors:"1", Exceptions:"0", StartTime:"2019-07-07 14:57:30 -0500", Successes:"4", TestCase:"BurgerShot.script", Warnings:"0")
+2019-07-07 19:58:19.618 +0000	ABORTED		Execution Time 0:00:49 BurgerShot.script

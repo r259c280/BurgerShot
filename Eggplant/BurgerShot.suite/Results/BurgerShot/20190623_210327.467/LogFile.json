@@ -1,0 +1,21 @@
+{
+	"entries": [
+		{
+				"message": "Running BurgerShot.script",
+				"identifier": "START",
+				"timestamp": "2019-06-23 21:03:27.475 -0500"
+			},
+		{
+				"message": "(Duration:\"0.693\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2019-06-23 21:03:27 -0500\", Successes:\"0\", TestCase:\"BurgerShot.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2019-06-23 21:03:28.173 -0500"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "SRUN_InvalidValueExpr Unable to take value of expression ' {⏎\\t\"applicaiton\":\"C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe\",⏎\\t\"remoteWorkInt...' (reason: (null)) -- Execution Time 0:00:01 BurgerShot.script",
+				"identifier": "FAILURE",
+				"timestamp": "2019-06-23 21:03:28.368 -0500"
+			}
+	],
+	"createdTimestamp": "2019-06-24 02:03:27.478 +0000"
+}
