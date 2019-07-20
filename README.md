@@ -1,8 +1,10 @@
 # BurgerShot
 Created in Java, and automated using Eggplant Functional.
 
-Use Eclipse of Intelli J to run the game
+Use Eclipse of IntelliJ to run the game, they can be downloaded through the links below:
+
 https://www.eclipse.org/
+
 https://www.jetbrains.com/idea/
 
 Shoot ketchup at the escaped burgers for the hungry customers.
