@@ -7,6 +7,11 @@ https://www.eclipse.org/
 
 https://www.jetbrains.com/idea/
 
+Once you have your preferance above installed, clone or download the zip of this then extract it to where ever you want to put it. 
+Then open up eclipse or intellij and open a new project (hunt for this and click ok.) 
+Click Run 
+Have some fun. 
+
 Shoot ketchup at the escaped burgers for the hungry customers.
 Shoot 6/10 burgers to win the game
 
@@ -20,10 +25,12 @@ Eggplant Scripts require active Eggplant Functional License in order to run.
     - Game Play
     - Key functionalities (play, instructions, exit, keystrokes, etc)
 
-
-
 The first version of the Game is currently complete.
-
+Version 1.0:
+ - Ronald Mcdonald (Easy Mode) 
+ - 1 hamburger 
+ - 10 rounds 
+ - 3 ketchup bottles 
 
 However Future updates will include:
 - 3 more game modes with 3 more characters 
