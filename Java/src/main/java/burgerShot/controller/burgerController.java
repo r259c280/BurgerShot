@@ -29,7 +29,7 @@ public class burgerController {
     private int yDirection;
     private int x;
     private int y;
-    private int ammunition;
+    private int ketchup;
 
 
     private boolean isburgerVisible;
@@ -152,8 +152,8 @@ public class burgerController {
         this.wasburgerHit = pValue;
     }
 
-    public void decreaseAmmunition() {
-        ammunition--;
+    public void decreaseKetchup() {
+        ketchup--;
     }
 
     public burgerAnimation getburgerAnimation() {
@@ -182,17 +182,17 @@ public class burgerController {
             wasburgerHit = false;
             isshot = false;
             Gone = false;
-            ammunition = 3;
+            ketchup = 3;
         }
 
         @Override
         public void run() {
-            while (!wasburgerHit && ammunition > 0) {
+            while (!wasburgerHit && ketchup > 0) {
                 flight();
                 panel.setburgerCurrentImage(currentImage);
                 panel.repaint();
             }
-            if (ammunition == 0) {
+            if (ketchup == 0) {
                 Gone = true;
                 while (burger.getY() > -50) {
                     flyAway();

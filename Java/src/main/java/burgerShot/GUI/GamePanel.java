@@ -39,7 +39,7 @@ public class GamePanel extends JPanel implements MouseMotionListener {
     private BufferedImage ronCurrentImage;
     private BufferedImage burgerCurrentImage;
     private BufferedImage flyAwayImage;
-    private BufferedImage[] ammo;
+    private BufferedImage[] Ketchup;
     private BufferedImage gameResultImage;
     private BufferedImage pressEnterImage;
 
@@ -58,7 +58,7 @@ public class GamePanel extends JPanel implements MouseMotionListener {
     private boolean isGameFinished;
     private boolean showImage;
 
-    private int currentAmmoNumber;
+    private int currentKetchupNumber;
     private int shotburgers;
 //start the game
     public GamePanel() {
@@ -77,9 +77,9 @@ public class GamePanel extends JPanel implements MouseMotionListener {
         cursorImg = Resources.getImage("/images/mcSight.png");
         flyAwayImage = Resources.getImage("/images/flyaway.png");
         pressEnterImage = Resources.getImage("/images/pressEnter.png");
-        ammo = new BufferedImage[3];
+        Ketchup = new BufferedImage[3];
         for (int i = 0; i < BULLET_NUMBER; i++) {
-            ammo[i] = Resources.getImage("/images/ketchup.png");
+            Ketchup[i] = Resources.getImage("/images/ketchup.png");
         }
         showImage = true;
         isGameFinished = false;
@@ -93,8 +93,8 @@ public class GamePanel extends JPanel implements MouseMotionListener {
             public void mousePressed(MouseEvent e) {
                 Point hitPoint = e.getPoint();
                 if (burger != null) {
-                    burgerController.decreaseAmmunition();
-                    currentAmmoNumber--;
+                    burgerController.decreaseKetchup();
+                    currentKetchupNumber--;
                     hitPoint.x -= burger.getX();
                     hitPoint.y -= burger.getY();
                     if (contains(burgerController.getCurrentImage(), hitPoint.x, hitPoint.y)) {
@@ -133,8 +133,8 @@ public class GamePanel extends JPanel implements MouseMotionListener {
             g2D.drawImage(ronCurrentImage, ron.getX(), ron.getY(), this);
         }
 
-        for (int i = 0; i < currentAmmoNumber; i++) {
-            g2D.drawImage(ammo[i], i * 30, 520, this);
+        for (int i = 0; i < currentKetchupNumber; i++) {
+            g2D.drawImage(Ketchup[i], i * 30, 520, this);
         }
 
         if (burgerController.isburgerVisible()) {
@@ -210,7 +210,7 @@ public class GamePanel extends JPanel implements MouseMotionListener {
 
         public void stop() {
             burgerController.theburgerIsGone(false);
-            currentAmmoNumber = 0;
+            currentKetchupNumber = 0;
             imageBlinker();
             notifyGameStatus();
             if (thread != null && thread.isAlive()) {
@@ -232,7 +232,7 @@ public class GamePanel extends JPanel implements MouseMotionListener {
                 try {
                     ronController.getIntroAnimation().start();
                     while (i < burger_NUMBER) {
-                        currentAmmoNumber = 3;
+                        currentKetchupNumber = 3;
                         burger = new burger();
                         burgerController.setburger(burger);
                         burgerController.getburgerAnimation().start();
