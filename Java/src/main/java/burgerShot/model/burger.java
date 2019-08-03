@@ -12,7 +12,7 @@ public class burger {
     public burger() {
         rectangle = new Rectangle(120, 100);
         rectangle.setLocation(randomX(), START_Y_COORDINATE);
-        speed = 1;//randomSpeed();
+        speed = randomSpeed(); //1 <--- easy or used to test
     }
 
     public int getSpeed() {

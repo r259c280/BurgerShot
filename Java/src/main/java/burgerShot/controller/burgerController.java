@@ -127,7 +127,7 @@ public class burgerController {
         y -= 2;
         burger.setY(y);
     }
-
+//burger image references
     public BufferedImage getCurrentImage() {
         return currentImage;
     }
@@ -184,7 +184,7 @@ public class burgerController {
             Gone = false;
             ketchup = 3;
         }
-
+//burger actions
         @Override
         public void run() {
             while (!wasburgerHit && ketchup > 0) {
