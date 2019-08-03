@@ -63,3 +63,10 @@
 2019-07-20 18:04:04.440 -0500	Log		Saving Screenshot: 1793044-Game PanelEnd Game	3	on_savescreenshot	Util/Verify.script
 2019-07-20 18:04:04.641 -0500	EndTestCase		(Duration:"135.846", Errors:"0", Exceptions:"0", StartTime:"2019-07-20 18:01:48 -0500", Successes:"0", TestCase:"Game Panel", Warnings:"0")	136	on_burgershot	BurgerShot.script
 2019-07-20 18:04:04.641 -0500	BeginTestCase		Exit Game	147	on_burgershot	BurgerShot.script
+2019-07-20 18:04:14.655 -0500	Log		Saving Screenshot: 1793054-Exit GameResults	3	on_savescreenshot	Util/Verify.script
+2019-07-20 18:04:20.539 -0500	Log		exiting the game	157	on_burgershot	BurgerShot.script
+2019-07-20 18:04:23.362 -0500	LogError		Exception encountered click Error - No Image Found On Screen: "MainFrame/Text_Exit"	171	on_burgershot	BurgerShot.script
+2019-07-20 18:04:23.366 -0500	Log		Saving Screenshot: 1793063-Exception	3	on_savescreenshot	Util/Verify.script
+2019-07-20 18:04:24.952 -0500	EndTestCase		(Duration:"20.311", Errors:"1", Exceptions:"1", StartTime:"2019-07-20 18:04:04 -0500", Successes:"0", TestCase:"Exit Game", Warnings:"0")
+2019-07-20 18:04:24.957 -0500	EndTestCase		(Duration:"200.972", Errors:"1", Exceptions:"1", StartTime:"2019-07-20 18:01:03 -0500", Successes:"10", TestCase:"BurgerShot.script", Warnings:"0")
+2019-07-20 18:04:25.189 -0500	FAILURE	Screen_Error.png	Script Error Number of Errors logged: 1 -- Execution Time 0:03:21 BurgerShot.script

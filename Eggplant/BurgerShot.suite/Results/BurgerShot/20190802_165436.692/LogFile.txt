@@ -1,0 +1,40 @@
+﻿2019-08-02 16:54:36.692 -0500	START		Running BurgerShot.script
+2019-08-02 16:56:23.112 -0500	Log		SetupData: (applcationRyan:@"C:\\Users\\Ryan\\eclipsejava-photon\\eclipse\\eclipse.exe", application:@"C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe", game:"Burger Shot", remoteWorkInterval:"1.5", scriptlogging:"off", waitTime:"5")	22	on_burgershot	BurgerShot.script
+2019-08-02 16:56:23.119 -0500	set		REMOTEWORKINTERVAL = 1.5	25	on_burgershot	BurgerShot.script
+2019-08-02 16:56:23.119 -0500	BeginTestCase		Open Burger Shot	35	on_burgershot	BurgerShot.script
+2019-08-02 16:56:23.119 -0500	Log		Login to: Eclipse	2	on_open	Setup/Interaction.script
+2019-08-02 16:56:39.261 -0500	Log		Starting up BurgerShot	41	on_burgershot	BurgerShot.script
+2019-08-02 16:56:51.156 -0500	Log		Saving Screenshot: 233811-Open Burger Shot	3	on_savescreenshot	Util/Verify.script
+2019-08-02 16:56:51.294 -0500	EndTestCase		(Duration:"28.175", Errors:"0", Exceptions:"0", StartTime:"2019-08-02 16:56:23 -0500", Successes:"0", TestCase:"Open Burger Shot", Warnings:"0")	49	on_burgershot	BurgerShot.script
+2019-08-02 16:56:51.294 -0500	BeginTestCase		Main Frame	60	on_burgershot	BurgerShot.script
+2019-08-02 16:56:59.435 -0500	Log		Verifying the Mcdonalds Icon is visible in the top left corner	66	on_burgershot	BurgerShot.script
+2019-08-02 16:56:59.472 -0500	LogSuccess		Found the image: Icon_Mcdonalds	3	on_imageisvisible	Util/Verify.script
+2019-08-02 16:56:59.742 -0500	LogSuccess		Found the image: Banner_BurgerShot	3	on_imageisvisible	Util/Verify.script
+2019-08-02 16:56:59.834 -0500	Log		Verifying Ronald Mcdonald is visible up in the middle of the menu	70	on_burgershot	BurgerShot.script
+2019-08-02 16:57:00.007 -0500	LogSuccess		Found the image: MainFrame/Icon_RonMcdon	3	on_imageisvisible	Util/Verify.script
+2019-08-02 16:57:00.088 -0500	Log		Verifying the 3 text icons are visible (Play, Instructions, and Exit)	73	on_burgershot	BurgerShot.script
+2019-08-02 16:57:00.237 -0500	LogSuccess		Found the image: MainFrame/Text_Play	3	on_imageisvisible	Util/Verify.script
+2019-08-02 16:57:00.495 -0500	LogSuccess		Found the image: MainFrame/Text_Instructions	3	on_imageisvisible	Util/Verify.script
+2019-08-02 16:57:00.697 -0500	LogSuccess		Found the image: MainFrame/Text_Exit	3	on_imageisvisible	Util/Verify.script
+2019-08-02 16:57:00.913 -0500	Log		Saving Screenshot: 233820-Main Frame	3	on_savescreenshot	Util/Verify.script
+2019-08-02 16:57:01.066 -0500	EndTestCase		(Duration:"9.772", Errors:"0", Exceptions:"0", StartTime:"2019-08-02 16:56:51 -0500", Successes:"6", TestCase:"Main Frame", Warnings:"0")	80	on_burgershot	BurgerShot.script
+2019-08-02 16:57:01.066 -0500	BeginTestCase		Instruction Frame	91	on_burgershot	BurgerShot.script
+2019-08-02 16:57:04.560 -0500	Log		Navigating to instructions	97	on_burgershot	BurgerShot.script
+2019-08-02 16:57:04.777 -0500	Log		Verifying Ronald Mcdonald is visible up in the middle of the menu	102	on_burgershot	BurgerShot.script
+2019-08-02 16:57:04.824 -0500	LogSuccess		Found the image: Icon_Mcdonalds	3	on_imageisvisible	Util/Verify.script
+2019-08-02 16:57:05.054 -0500	LogSuccess		Found the image: Banner_BurgerShot	3	on_imageisvisible	Util/Verify.script
+2019-08-02 16:57:05.342 -0500	LogSuccess		Found the image: InstructionFrame/Text_InstructionInfo	3	on_imageisvisible	Util/Verify.script
+2019-08-02 16:57:05.595 -0500	LogSuccess		Found the image: InstructionFrame/Text_EnterToContinue	3	on_imageisvisible	Util/Verify.script
+2019-08-02 16:57:05.804 -0500	Log		Saving Screenshot: 233825-Instruction Frame	3	on_savescreenshot	Util/Verify.script
+2019-08-02 16:57:11.381 -0500	Log		Saving Screenshot: 233831-Instruction Frame returned to menu frame	3	on_savescreenshot	Util/Verify.script
+2019-08-02 16:57:11.519 -0500	EndTestCase		(Duration:"10.453", Errors:"0", Exceptions:"0", StartTime:"2019-08-02 16:57:01 -0500", Successes:"4", TestCase:"Instruction Frame", Warnings:"0")	113	on_burgershot	BurgerShot.script
+2019-08-02 16:57:11.519 -0500	BeginTestCase		Game Panel	124	on_burgershot	BurgerShot.script
+2019-08-02 16:57:11.682 -0500	Log		Finding the burger	129	on_burgershot	BurgerShot.script
+2019-08-02 16:57:28.521 -0500	Log		Found the Burger	14	on_getthemburgers	Setup/Interaction.script
+2019-08-02 16:57:36.644 -0500	Log		Found the Burger	14	on_getthemburgers	Setup/Interaction.script
+2019-08-02 16:57:37.266 -0500	Log		Found the Burger	14	on_getthemburgers	Setup/Interaction.script
+2019-08-02 16:57:40.384 -0500	Log		Found the Burger	14	on_getthemburgers	Setup/Interaction.script
+2019-08-02 16:57:40.730 -0500	Log		Found the Burger	14	on_getthemburgers	Setup/Interaction.script
+2019-08-02 16:57:41.216 -0500	EndTestCase		(Duration:"29.697", Errors:"1", Exceptions:"0", StartTime:"2019-08-02 16:57:11 -0500", Successes:"0", TestCase:"Game Panel", Warnings:"0")
+2019-08-02 16:57:41.216 -0500	EndTestCase		(Duration:"184.524", Errors:"1", Exceptions:"0", StartTime:"2019-08-02 16:54:36 -0500", Successes:"10", TestCase:"BurgerShot.script", Warnings:"0")
+2019-08-02 16:57:41.232 -0500	ABORTED		Execution Time 0:03:05 BurgerShot.script
