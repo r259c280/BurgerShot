@@ -23,7 +23,7 @@
                     <archive>
                         <index>true</index>
                         <manifest>
-                            <mainClass>burgerShot.BurgerShot</mainClass>
+                            <mainClass>burgerShot.Burgershot</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="BurgerShot_script" package="BurgerShot.suite" timestamp="2019-07-20 16:36:16.367 -0500"
+ tests="6"  failures="2" errors="0" time="190.651000">
+  <properties>
+   <property name="RunDate" value="2019-07-20 16:36:16.367 -0500"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Open Burger Shot" assertions="0" status="success"  time="26.395">
+  </testcase>
+  <testcase name="Main Frame" assertions="6" status="success"  time="8.868">
+  </testcase>
+  <testcase name="Instruction Frame" assertions="4" status="success"  time="5.181">
+  </testcase>
+  <testcase name="Game Panel" assertions="0" status="success"  time="132.443">
+  </testcase>
+  <testcase name="Exit Game" assertions="1" status="error"  time="17.667">
+    <failure type="LogError" message="Exception encountered click Error - No Image Found On Screen: &quot;MainFrame/Text_Exit&quot;" />
+  </testcase>
+  <testcase name="BurgerShot.script" assertions="11" status="error"  time="190.633">
+    <failure type="LogError" message="Exception encountered click Error - No Image Found On Screen: &quot;MainFrame/Text_Exit&quot;" />
+    <failure type="FAILURE" message="Script Error Number of Errors logged: 1 -- Execution Time 0:03:11 BurgerShot.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,61 @@
+﻿(** Open Eclipse
+@Param application the application to start up
+@Handler
+     run "Setup/Interaction".open application
+ **)
+on open application
+	log "Login to: Eclipse"
+	TypeText windowsKey & "r"
+	Wait 1
+	TypeText application, returnKey
+	wait 13
+end open
+
+
+(** Open Eclipse
+@Param application the application to start up
+@Handler
+     run "Setup/Interaction".openAlt 
+ **)
+on openAlt 
+	log "Login to: Eclipse"
+	click "Icon_Eclipse"
+	wait 13
+end openAlt
+
+
+(** Open BurgerShot
+@Param application the application to start up
+@Handler
+     run "Setup/Interaction".startBurgerShot
+ **)
+on startBurgerShot 
+	click "Eclipse/Text_BurgerShot"
+	//click "Eclipse/Text_BurgerShotRyan"
+	click "Eclipse/Icon_Run"
+end startBurgerShot
+
+
+(** Douse the burgers in ketchup!!!
+@Param rectangle - rectangle for burger range
+@Handler
+     run "Setup/Interaction".getThemBurgers
+ **)
+on getThemBurgers
+	set rectangle to "Setup/Task".MiddleMiddleSearchRectangle()
+	//set rectangle to "Setup/Task".MiddleLeftSearchRectangle()
+	//set rectangle to "Setup/Task".FrameSearchRectangle()
+	set tempRemoteWorkInterval to the remoteWorkInterval 
+	set the remoteWorkInterval to "0.2"
+	repeat for 30 times
+		repeat until  imageFound(image:"GamePanel/Burger", SearchRectangle:rectangle)
+		end repeat
+		//Repeat 30 times
+		//click FoundImageLocation()
+		//end repeat
+		click FoundImageLocation() 
+		log"Found the Burger"
+	end repeat
+	
+	set the remoteWorkInterval to tempRemoteWorkInterval
+end getThemBurgers

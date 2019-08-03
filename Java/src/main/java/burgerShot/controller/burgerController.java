@@ -1,3 +1,7 @@
+/* Ryan Charles
+ * CS 4000 - BurgerShot
+ */
+
 package burgerShot.controller;
 
 import java.awt.image.BufferedImage;
@@ -7,7 +11,7 @@ import burgerShot.model.burger;
 import burgerShot.utility.Resources.Resources;
 
 public class burgerController {
-
+//set up burger variables
     private static final int LEFT = -3;
     private static final int RIGHT = 3;
     private static final int UP = -3;
@@ -25,13 +29,13 @@ public class burgerController {
     private int yDirection;
     private int x;
     private int y;
-    private int ammunition;
+    private int ketchup;
 
 
     private boolean isburgerVisible;
     private boolean wasburgerHit;
     private boolean isshot;
-    private boolean flownAway;
+    private boolean Gone;
 
     private burgerController() {
         currentImage = Resources.getImage("/images/burgerRight0.png");
@@ -42,7 +46,7 @@ public class burgerController {
         isburgerVisible = false;
         wasburgerHit = false;
         isshot = false;
-        flownAway = false;
+        Gone = false;
         x = 0;
         y = 0;
     }
@@ -72,18 +76,6 @@ public class burgerController {
             spriteSheet.setDelay(DELAY);
             spriteSheet.update();
             currentImage = spriteSheet.getCurrentFrame();
-            /*
-        } else if (xDirection == RIGHT && yDirection == DOWN) {
-            spriteSheet.setFrames(2, "burgerRight");
-            spriteSheet.setDelay(DELAY);
-            spriteSheet.update();
-            currentImage = spriteSheet.getCurrentFrame();
-        } else if (xDirection == LEFT && yDirection == UP) {
-            spriteSheet.setFrames(2, "burgerLeft");
-            spriteSheet.setDelay(DELAY);
-            spriteSheet.update();
-            currentImage = spriteSheet.getCurrentFrame();
-            */
         } else {
             spriteSheet.setFrames(2, "burgerLeft");
             spriteSheet.setDelay(DELAY);
@@ -148,20 +140,20 @@ public class burgerController {
         return isshot;
     }
 
-    public boolean isFlownAway() {
-        return flownAway;
+    public boolean isGone() {
+        return Gone;
     }
 
-    public void theburgerIsFlownAway(boolean pValue) {
-        this.flownAway = pValue;
+    public void theburgerIsGone(boolean pValue) {
+        this.Gone = pValue;
     }
 
     public void theburgerWasHit(boolean pValue) {
         this.wasburgerHit = pValue;
     }
 
-    public void decreaseAmmunition() {
-        ammunition--;
+    public void decreaseKetchup() {
+        ketchup--;
     }
 
     public burgerAnimation getburgerAnimation() {
@@ -189,19 +181,19 @@ public class burgerController {
             isburgerVisible = true;
             wasburgerHit = false;
             isshot = false;
-            flownAway = false;
-            ammunition = 3;
+            Gone = false;
+            ketchup = 3;
         }
 
         @Override
         public void run() {
-            while (!wasburgerHit && ammunition > 0) {
+            while (!wasburgerHit && ketchup > 0) {
                 flight();
                 panel.setburgerCurrentImage(currentImage);
                 panel.repaint();
             }
-            if (ammunition == 0) {
-                flownAway = true;
+            if (ketchup == 0) {
+                Gone = true;
                 while (burger.getY() > -50) {
                     flyAway();
                     panel.setburgerCurrentImage(currentImage);

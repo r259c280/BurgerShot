@@ -1,0 +1,11 @@
+﻿2019-07-20 17:15:44.543 -0500	START		Running BurgerShot.script
+2019-07-20 17:15:44.589 -0500	Log		SetupData: (applcationRyan:@"C:\\Users\\Ryan\\eclipsejava-photon\\eclipse\\eclipse.exe", application:@"C:\\Users\\rc050176\\eclipse\\java-2019-06\\eclipse\\eclipse.exe", game:"Burger Shot", remoteWorkInterval:"1.5", scriptlogging:"off", waitTime:"5")	22	on_burgershot	BurgerShot.script
+2019-07-20 17:15:44.612 -0500	set		REMOTEWORKINTERVAL = 1.5	25	on_burgershot	BurgerShot.script
+2019-07-20 17:15:44.612 -0500	BeginTestCase		Open Burger Shot	35	on_burgershot	BurgerShot.script
+2019-07-20 17:15:44.612 -0500	Log		Login to: Eclipse	2	on_open	Setup/Interaction.script
+2019-07-20 17:15:59.231 -0500	Log		Starting up BurgerShot	41	on_burgershot	BurgerShot.script
+2019-07-20 17:16:09.286 -0500	LogError		Exception encountered ERROR: No Such Command: 'startburgershot'	171	on_burgershot	BurgerShot.script
+2019-07-20 17:16:09.286 -0500	Log		Saving Screenshot: 1790169-Exception	3	on_savescreenshot	Util/Verify.script
+2019-07-20 17:16:09.480 -0500	EndTestCase		(Duration:"24.853", Errors:"1", Exceptions:"0", StartTime:"2019-07-20 17:15:44 -0500", Successes:"0", TestCase:"Open Burger Shot", Warnings:"0")
+2019-07-20 17:16:09.480 -0500	EndTestCase		(Duration:"24.922", Errors:"1", Exceptions:"0", StartTime:"2019-07-20 17:15:44 -0500", Successes:"0", TestCase:"BurgerShot.script", Warnings:"0")
+2019-07-20 17:16:09.619 -0500	FAILURE	Screen_Error.png	Script Error Number of Errors logged: 1 -- Execution Time 0:00:25 BurgerShot.script

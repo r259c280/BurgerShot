@@ -1,3 +1,7 @@
+/* Ryan Charles
+ * CS 4000 - BurgerShot
+ */
+
 package burgerShot.controller;
 
 import java.awt.image.BufferedImage;
@@ -5,7 +9,7 @@ import java.awt.image.BufferedImage;
 import burgerShot.utility.Resources.Resources;
 
 public class Spritesheet {
-
+//init variables for spritesheet
     private BufferedImage[] frames;
     private int currentFramePosition;
     private long startTime;
@@ -14,7 +18,7 @@ public class Spritesheet {
     public Spritesheet() {
     }
 
-
+//set frames lengths
     public void setFrames(int pSize, String pName) {
         frames = new BufferedImage[pSize];
         if (currentFramePosition >= frames.length) {
